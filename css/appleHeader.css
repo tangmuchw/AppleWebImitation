@@ -1,0 +1,469 @@
+/*广告开始*/
+
+#adv-wrapper {
+	width: 100%;
+	height: 40px;
+	background-color: #444444;
+}
+
+.adv-wrapper-text {
+	width: 900px;
+	height: 40px;
+	margin: 0px auto;
+	text-align: right;
+	color: #9EA8AA;
+	line-height: 40px;
+	font-size: 12px;
+}
+
+
+/*广告结束*/
+
+
+/*导航栏开始*/
+
+#globalNav {
+	width: 100%;
+	/*height: 44px;*/
+	background-color: #1E1E1E;
+	position: relative;
+	
+}
+
+.globalNav-wrapper {
+	width: 1024px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.globalNav-item-list {
+	width: 980px;
+	height: 44px;
+	margin: 0px auto;
+	/*border: 1px solid #FFFFFF;*/
+	padding: 0px 22px;
+	position: relative;
+}
+
+.globalNav-item {
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	/*padding: 0px 20px 0px 0px;*/
+	text-align: center;
+	margin-right: 86px;
+	/*border: 1px solid #FFFFFF;*/
+}
+
+.globalNav-item:nth-child(9) {
+	margin-right: 0px;
+}
+
+.globalNav-item a {
+	color: #FFFFFF;
+	transition: color 1s;
+}
+
+.globalNav-item a:hover {
+	color: rgba(166, 166, 166, 1);
+}
+
+.addbgImg {
+	display: inline-block;
+	width: 20px;
+	height: 44px;
+	/*padding: 0px 10px;*/
+	/*border: 1px solid #FFFFFF;*/
+}
+
+
+/*苹果LOGO*/
+
+.link-apple {
+	background: url(../img/headerImg/headNavBar/apple.png) center center no-repeat;
+	background-size: 20px;
+}
+
+.link-apple:hover {
+	background: url(../img/headerImg/headNavBar/apple-hover.png) center center no-repeat;
+	background-size: 20px;
+	transition: background 1s;
+}
+
+
+/*搜索icon*/
+
+.link-search {
+	background: url(../img/headerImg/headNavBar/magnifier.png) center center no-repeat;
+	background-size: 20px;
+}
+
+.link-search:hover {
+	background: url(../img/headerImg/headNavBar/magnifier-hover.png) center center no-repeat;
+	background-size: 20px;
+	transition: background 1s;
+}
+
+
+/*购物袋icon*/
+
+.link-bag {
+	background: url(../img/headerImg/headNavBar/shoppingBag.png) center center no-repeat;
+	background-size: 20px;
+}
+
+.link-bag:hover {
+	background: url(../img/headerImg/headNavBar/shoppingBag-hover.png) center center no-repeat;
+	background-size: 20px;
+	transition: background 1s;
+}
+
+
+/*购物袋对话框*/
+
+#bagView {
+	position: absolute;
+	right: -90px;
+	top: 55px;
+	z-index: 1000;
+	display: none;
+}
+
+.dialog-box {
+	width: 248px;
+	height: 313px;
+	background-color: #FFFFFF;
+	border: 1px solid #D6D6D6;
+	border-radius: 5px;
+	position: relative;
+	padding: 0px 20px;
+}
+
+.dialog-box:before,
+.dialog-box:after {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	/*设置边框颜色为透明*/
+	content: " ";
+	height: 0;
+	width: 0;
+	pointer-events: none;
+}
+
+
+/*内三角*/
+
+.dialog-box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #FFFFFF;
+	border-width: 10px;
+	/*margin-bottom: -10px;*/
+	margin-left: -11px;
+	/*margin-bottom: -10px;*/
+}
+
+
+/*外三角*/
+
+.dialog-box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #D6D6D6;
+	border-width: 12px;
+	margin-left: -13px;
+	/*margin-bottom: -10px;*/
+}
+
+
+/*购物袋对话框结束*/
+
+
+/*购物袋内容开始*/
+
+.bgView-content .bgView-message {
+	line-height: 17px;
+	padding: 35px 0px;
+	text-align: center;
+	color: #9E9E9E;
+	font-size: 0.8em;
+}
+
+.bgView-nav-item {
+	width: 188px;
+	line-height: 43px;
+	border-top: 1px solid #E3E3E3;
+	padding-right: 60px;
+}
+
+.bgView-nav-item:hover {
+	cursor: pointer;
+}
+
+.bgView-nav-item:hover .bagview-nav-link {
+	text-decoration: underline;
+}
+
+.bagview-nav-link {
+	display: inline-block;
+	color: #0070C9;
+	font-size: 1em;
+	padding-left: 30px;
+}
+
+.bagview-nav-link-bag {
+	background: url(../img/headerImg/shoppingBag/shoppingBag.png) left center no-repeat;
+	background-size: 20px 43px;
+}
+
+.bagview-nav-link-favorites {
+	background: url(../img/headerImg/shoppingBag/collect.png) left center no-repeat;
+	background-size: 20px 43px;
+}
+
+.bagview-nav-link-orders {
+	background: url(../img/headerImg/shoppingBag/order.png) left center no-repeat;
+	background-size: 20px 43px;
+}
+
+.bagview-nav-link-acount {
+	background: url(../img/headerImg/shoppingBag/users.png) left center no-repeat;
+	background-size: 20px 43px;
+}
+
+.bagview-nav-link-signIn {
+	background: url(../img/headerImg/shoppingBag/login.png) left center no-repeat;
+	background-size: 20px 43px;
+}
+
+
+/*搜索按钮内容开始*/
+
+#searchView {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	background: rgba(14, 14, 14, 0.8);
+	display: none;
+	z-index: 1100;
+}
+
+.searchView-wrapper {
+	width: 100%;
+	height: 44px;
+	/*background: rgba(39, 39, 39, 0.8);*/
+	background-color: #030303;
+}
+
+.searchView-content {
+	width: 980px;
+	height: 44px;
+	/*padding: 0px 22px;*/
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+
+.searchView-apple-logo {
+	width: 20px;
+	height: 44px;
+	float: left;
+}
+
+.searchForm {
+	width: 683px;
+	height: 44px;
+	margin: 0px auto;
+	/*border: 1px solid blueviolet;*/
+	margin-left: 140px;
+	position: relative;
+}
+
+.searchForm-wrapper {
+	padding-left: 40px;
+	background: url(../img/headerImg/headNavBar/magnifier.png) 8px center no-repeat;
+	background-size: 20px;
+	position: relative;
+}
+
+#searchForm-src {
+	/*border: 1px solid #FFFFFF;*/
+}
+
+#searchForm-input {
+	width: 643px;
+	line-height: 22px;
+	margin: 11px 0px;
+	padding-left: 5px;
+	border: 0;
+	outline: none;
+	background: #030303;
+	color: #868686;
+	font-size: 12px;
+}
+
+.searchResults {
+	width: 683px;
+	height: 160px;
+	position: absolute;
+	top: 44px;
+	background: #FFFFFF;
+	padding: 24px 0px 0px 0px;
+	/*display: none;*/
+}
+
+.searchResults-header {
+	margin: 0px 0px 10px 40px;
+	font-size: 0.5em;
+	line-height: 12px;
+	color: #8D8D8D;
+	/*font-size: 12px;*/
+	position: relative;
+}
+
+.searchResults-list {
+	margin: 0px 10px 0px 10px;
+}
+
+.searchResults-item {
+	line-height: 28px;
+	text-indent: 1em;
+	font-size: 14px;
+	padding: 0px 48px;
+	position: relative;
+}
+
+.searchResults-item:hover {
+	cursor: pointer;
+	background: #F2F2F2;
+}
+
+.searchResults-item a {
+	color: #343434;
+}
+
+.searchResults-item:hover a {
+	color: #2C88D1;
+}
+
+.searchView-close {
+	width: 38px;
+	line-height: 44px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: right;
+	float: right;
+	transition: color 1s;
+}
+
+.searchView-close:hover {
+	color: rgba(166, 166, 166, 1);
+	cursor: pointer;
+}
+
+
+/*导航栏结束*/
+
+
+/*章节导航块开始*/
+
+#chapterNav {
+	width: 100%;
+	background: #2D2D2D;
+	position: absolute;
+	top: 44px;
+	left: 100%;
+	z-index: 100;
+	display: none;
+}
+
+.chapterNav-wrapper {
+	width: 1349px;
+	height: 145px;
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+}
+
+.macList {
+	width: 1260px;
+}
+
+.iPhoneList,
+.iPadList,
+.musicList {
+	width: 756px;
+}
+
+.watchList {
+	width: 1134px;
+}
+
+
+/*.macList,
+.watchList,
+.iPhoneList,
+.iPadList,
+.musicList {
+
+}*/
+
+.chapterNav-items {
+	padding: 10px 0px 49px 0px;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+	display: none;
+	margin: 0px auto;
+	position: relative;
+	left: 100%;
+}
+
+.chapterNav-item {
+	float: left;
+	text-align: center;
+	position: relative;
+	padding: 0px 22px;
+	/*border: 1px solid sienna;*/
+}
+
+.chapterNav-icon {
+	width: 80px;
+	height: 76px;
+	line-height: 67px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.chapterNav-icon img {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+.chapterNav-label {
+	color: #FFFFFF;
+}
+
+.chapterNav-link:hover .chapterNav-label {
+	color: #54BBFF;
+}
+
+.chapterNav-new {
+	width: 100%;
+	color: #E85726;
+	line-height: 12px;
+	font-size: 9px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.iPadList .chapterNav-label {
+	color: #000000;
+}
+
+.watchList .chapterNav-label {
+	color: #000000;
+}
+
+
+/*章节导航块结束*/

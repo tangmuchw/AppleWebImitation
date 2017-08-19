@@ -1,0 +1,249 @@
+/*新登录开始*/
+
+#new-login-content {
+	width: 100%;
+	height: 600px;
+	background: url(../img/newLogin/apple_id_desktop_2880x1260.jpg) left top no-repeat;
+	background-size: contain;
+	/*position: relative;*/
+}
+
+.new-login-content-header {
+	width: 100%;
+	height: 61px;
+	background: rgba(238, 236, 235, 0.8);
+}
+
+.new-login-content-wrapper {
+	width: 980px;
+	height: 61px;
+	margin: 0px auto;
+	/*border: 1px solid #000000;*/
+}
+.new-login-box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.new-login-box-wrapper {
+	width: 640px;
+	margin: 0px auto;
+	/*border: 1px solid #FFFFFF;*/
+	margin-top: 160px;
+	text-align: center;
+}
+.sub-nav-left-title {
+	float: left;
+	line-height: 61px;
+}
+
+.sub-nav-right-menu {
+	float: right;
+}
+
+.menu-item {
+	float: left;
+	padding: 0px 15px;
+	line-height: 61px;
+}
+
+.create-tips {
+	font-size: 12px;
+	color: #666464;
+}
+
+.item-link {
+	color: #0D0909;
+	
+}
+
+.item-link:hover {
+	text-decoration: underline;
+}
+.aid-log {
+	height: 61px;
+}
+
+.aid-log-image {
+	width: 200px;
+	height: 54px;
+}
+
+.manage-account {
+	width: 380px;
+	height: 32px;
+	margin: 5px 130px 13px 130px;
+}
+
+.manage-account-word {
+	font-size: 22px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.account-ID-input,
+.account-pwd-input {
+	width: 302px;
+	height: 22px;
+	padding: 10px 12px 10px 12px;
+	outline: none;
+}
+
+.account-ID-input {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: none;
+}
+
+.account-pwd-input {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.signin-remember-pwd {
+	width: 170px;
+	height: 20px;
+	margin: 0px auto;
+	margin-top: 30px;
+	/*border: 1px solid red;*/
+}
+
+.signin-remember-pwd:hover {
+	cursor: pointer;
+}
+
+.signin-remember-me-chkbox {
+	width: 18px;
+	height: 18px;
+	position: relative;
+	float: left;
+}
+
+.signin-remember-me-chkbox label {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	border: 1px solid #D6D6D6;
+	border-radius: 5px;
+}
+
+.signin-remember-me-chkbox label:after {
+	opacity: 1;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 3px;
+	left: 3px;
+	/*border: 2px solid #FFFFFC;*/
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/*display: none;*/
+}
+
+.signin-remember-pwd-word {
+	float: right;
+	color: #FFFFFF;
+	line-height: 20px;
+}
+
+.forget-account {
+	margin-top: 90px;
+	position: relative;
+	left: -30px;
+}
+
+.forget-account-link {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.forget-account-link:hover {
+	text-decoration: underline;
+}
+
+
+/*app内容开始*/
+
+#app-content {
+	width: 100%;
+	padding: 105px 0px 95px 0px;
+}
+
+.app-content-wrapper {
+	width: 656px;
+	padding: 0px 331.5px;
+}
+
+.home-content {
+	text-align: center;
+}
+
+.home-content i.iconfont {
+	font-size: 12px;
+	position: relative;
+	top: 2px;
+}
+
+.home-content-title {
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.pragraph-link-content {
+	margin-top: 5px;
+}
+
+.intro-signin {
+	width: 400px;
+	word-break: break-all;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+.intro-signin-link,
+.create-account-link {
+	font-size: 16px;
+}
+
+.intro-signin-link:hover,
+.create-account-link:hover {
+	text-decoration: underline;
+}
+
+.more-apps {
+	margin-bottom: 50px;
+}
+
+
+/*尾部开始*/
+
+#new-login-footer {
+	width: 100%;
+	background-color: #F2F2F2;
+	color: #85857D;
+	overflow: hidden;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+.new-login-footer-wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.as-globalfooter-mini-shop {
+	border-bottom: 0px!important;
+}

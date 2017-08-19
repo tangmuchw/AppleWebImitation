@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*!
+ * @名称：base.css
+ * @功能：1、重设浏览器默认样式
+ *       2、设置通用原子类
+ */
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+    background:white;
+    color:black;
+}
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+*{
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑";
+}
+/*设置a标签默认状态下没有下划线*/
+a{
+	text-decoration: none;
+	font-size:12px;
+}
+li{
+	list-style-type: none;
+}
+.clearFr{
+	clear: both;
+}

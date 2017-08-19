@@ -1,0 +1,46 @@
+.dialog {
+	margin-top: 50px;
+}
+
+.dialog-box {
+	width: 250px;
+	height: 200px;
+	background-color: #FFFFFF;
+	border: 1px solid #D6D6D6;
+	border-radius: 5px;
+	position: relative;
+}
+
+.dialog-box:before,
+.dialog-box:after {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	/*设置边框颜色为透明*/
+	content: " ";
+	height: 0;
+	width: 0;
+	pointer-events: none;
+}
+
+
+/*内三角*/
+
+.dialog-box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #FFFFFF;
+	border-width: 5px;
+	margin-bottom: -1px;
+	margin-left: -6px;
+}
+
+
+/*外三角*/
+
+.dialog-box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #D6D6D6;
+	border-width: 5px;
+	margin-left: -5px;
+}
