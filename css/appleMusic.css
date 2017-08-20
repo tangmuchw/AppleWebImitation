@@ -1,0 +1,757 @@
+#main {
+	width: 100%;
+	margin: 0px auto;
+	min-width: 1500px;
+}
+
+.shopHeader {
+	width: 100%;
+	height: 52px;
+}
+
+.iMac-shop {
+	width: 980px;
+	height: 52px;
+	line-height: 52px;
+	margin: 0px auto;
+	border-bottom: 1px solid #D6D6D6;
+	position: relative;
+	z-index: 2000;
+}
+
+.iMac-shop-left {
+	float: left;
+	font-size: 24px;
+	color: white;
+}
+
+.iMac-shop-right {
+	float: right;
+	position: relative;
+	left: 15px;
+}
+
+.iMac-shop-right li {
+	float: left;
+	font-size: 12px;
+	margin: 0px 16px;
+}
+
+.iMac-shop-right a {
+	color: white;
+}
+
+.iMac-shop-right .iMac-shop-right-2 {
+	color: white;
+	display: inline-block;
+	width: 60px;
+	height: 24px;
+	background-color: #FF365D;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.lunbo {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	top: -53px;
+}
+
+
+/*收缩展开部分开始*/
+
+.section-nopad {
+	width: 100%;
+	height: 835px;
+}
+
+.card-hero-content {
+	margin-top: 745px;
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 835px;
+	background-image: url(../img/appleMusic/experience_hero_large.jpg);
+	background-size: 100%;
+}
+
+.copy-wrapper {
+	width: 330px;
+	height: 331px;
+	color: white;
+	font-size: 17px;
+}
+
+.inner {
+	width: 330px;
+	height: 331px;
+	position: relative;
+	left: -140px;
+	top: 150px;
+}
+
+.section-content {
+	width: 980px;
+	height: 0;
+	margin: 0px auto;
+}
+
+.section-headline {
+	width: 330px;
+	height: 204px;
+	font-size: 48px;
+	line-height: 55px;
+}
+
+.eyebrow {
+	width: 330px;
+	height: 21.6px;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.peyebrow {
+	margin-top: 31.9px;
+}
+
+#watch-the-film {
+	color: white;
+	width: 95px;
+	height: 25.6px;
+	font-size: 17px;
+	margin-top: 20px;
+	display: block;
+	background: url(../img/appleMusic/2017-08-08_161105.png) right center no-repeat;
+}
+
+#watch-the-film:hover {
+	text-decoration: underline;
+}
+
+.card-trigger {
+	outline: 0px;
+	border: 0px;
+	background: none;
+	display: block;
+	visibility: visible;
+	width: 100%;
+	position: relative;
+	z-index: 200;
+	top: -130px;
+	opacity: 0.999;
+}
+
+.card-trigger:hover .card-trigger-clip {
+	background-color: white;
+}
+
+.card-trigger:hover .card-trigger-label {
+	color: white;
+}
+
+.card-trigger-clip {
+	display: block;
+	width: 34px;
+	height: 34px;
+	margin: 0px auto;
+	background-color: #FE355C;
+	border-radius: 50%;
+	margin-top: 15px;
+	transition: background-color 1s;
+}
+
+.card-trigger-label {
+	color: #FE355C;
+	transition: color 1s;
+}
+
+.card-trigger-icon {
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0px auto;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+
+.card-hero-content1 {
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 835px;
+	background-image: url(../img/appleMusic/exclusives_hero_large.jpg);
+	background-size: 100%;
+}
+
+.card-hero-content2 {
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 835px;
+	background-image: url(../img/appleMusic/playlists_hero_large.jpg);
+	background-size: 100%;
+}
+
+.card-hero-content3 {
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 835px;
+	background-image: url(../img/appleMusic/everywhere_hero_large.jpg);
+	background-size: 100%;
+}
+
+.section-headline1 {
+	width: 400px;
+	height: 150.4px;
+	font-size: 48px;
+	line-height: 55px;
+	margin-bottom: 40px;
+}
+
+.eyebrow1 {
+	display: block;
+	width: 400px;
+	height: 21.6px;
+	/*margin-top: 50px;*/
+	font-size: 22px;
+}
+
+.peyebrow1 {
+	/*margin-top: 31.9px;*/
+	width: 400px;
+}
+
+.animate-active {
+	width: 100%;
+	height: 554px;
+	background-image: url(../img/appleMusic/trial_router_large.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.section-content-1 {
+	width: 980px;
+	height: 218px;
+	margin: 0px auto;
+	position: relative;
+	top: 161px;
+}
+
+.medium-12 {
+	width: 653px;
+	height: 218px;
+}
+
+.headline-1 {
+	font-size: 48px;
+	font-weight: 500;
+	color: white;
+}
+
+.medium-12 p {
+	font-size: 17px;
+	line-height: 26px;
+	color: white;
+}
+
+.medium-12 a {
+	color: white;
+	font-size: 16px;
+}
+
+.medium-12 a:hover {
+	text-decoration: underline;
+}
+
+.link {
+	margin-top: 30px;
+}
+
+.card-detail {
+	width: 100%;
+	height: 9470px;
+	/*height: 1000px;*/
+	display: none;
+	position: relative;
+}
+
+.card-detail-content {
+	width: 100%;
+	height: 5462.4px;
+	background-color: #FAF8FE;
+	padding-top: 195px;
+	padding-bottom: 68px;
+}
+
+.ui-scroll-slide-1 {
+	width: 100%;
+	height: 783.2px;
+	position: relative;
+}
+
+.section-content-slide {
+	width: 980px;
+	height: 783.2px;
+	margin: 0px auto;
+}
+
+.ui-scroll-container {
+	width: 980px;
+	height: 783.2px;
+}
+
+.ui-scroll-content-media {
+	width: 490.4px;
+	height: 783.2px;
+}
+
+.ui-scroll-media-container {
+	width: 490.4px;
+	height: 623px;
+	padding-top: 65px;
+	padding-bottom: 95px;
+}
+
+.ui-scroll-media {
+	width: 307px;
+	height: 623px;
+	margin-left: -153.5px;
+}
+
+.image-experience-shadow {
+	width: 572px;
+	height: 839px;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+}
+
+.image-experience-hardware-silver {
+	width: 306px;
+	height: 623px;
+	background-image: url(../img/appleMusic/experience_hardware_silver_large.png);
+	position: absolute;
+	left: 250px;
+}
+
+.mediaObject-content {
+	width: 264px;
+	height: 470px;
+	position: absolute;
+	left: 271px;
+	top: 141px;
+}
+
+.mediaObject-startframe1 {
+	width: 264px;
+	height: 470px;
+	background-image: url(../img/appleMusic/experience_library_startframe_large.jpg);
+}
+
+.ui-scroll-copy {
+	width: 396px;
+	height: 302px;
+	padding-top: 45px;
+	padding-bottom: 70px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.subsection-headline {
+	width: 389.6px;
+	height: 40px;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.ui-scroll-content {
+	/*padding-right: 100px;*/
+	padding-top: 200px;
+	position: relative;
+	left: -100px;
+}
+
+.description-title {
+	margin-top: 30px;
+}
+
+.ui-scroll-slide-2 {
+	position: relative;
+}
+
+.ui-scroll-slide-3 {
+	position: relative;
+}
+
+.ui-scroll-slide-4 {
+	position: relative;
+}
+
+.ui-scroll-slide-5 {
+	position: relative;
+}
+
+.ui-scroll-slide-6 {
+	position: relative;
+}
+
+.ui-scroll-slide-7 {
+	position: relative;
+}
+
+.image-experience-shadow1 {
+	width: 572px;
+	height: 839px;
+	position: absolute;
+	top: 0px;
+	left: 700px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+}
+
+.ui-scroll-content1 {
+	padding-top: 100px;
+	position: absolute;
+	/*left: -100px;*/
+}
+
+.mediaObject-startframe2 {
+	width: 264px;
+	height: 470px;
+	background-image: url(../img/appleMusic/experience_library_startframe_large.jpg);
+}
+
+.mediaObject-startframe3 {
+	width: 264px;
+	height: 470px;
+	background-image: url(../img/appleMusic/experience_browse_large.jpg);
+}
+
+.mediaObject-startframe4 {
+	width: 264px;
+	height: 470px;
+	background-image: url(../img/appleMusic/experience_radio_large.jpg);
+}
+
+.image-experience-hardware-silver1 {
+	width: 306px;
+	height: 623px;
+	background-image: url(../img/appleMusic/experience_hardware_silver_large.png);
+	position: absolute;
+	left: 856px;
+}
+
+.mediaObject-content1 {
+	width: 264px;
+	height: 470px;
+	position: absolute;
+	left: 877px;
+	top: 141px;
+}
+
+.siri-subsection {
+	width: 980px;
+	height: 1156.4px;
+	margin: 0px auto;
+}
+
+.copy-container {
+	width: 600px;
+	height: 256.8px;
+	margin: 0px auto;
+	margin-top: 200px;
+}
+
+.image-experience-siri-wave {
+	width: 327px;
+	height: 50px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	background-image: url(../img/appleMusic/experience_siri_wave_large.jpg);
+}
+
+.subsection-headline {
+	width: 600px;
+	height: 40px;
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 40px;
+}
+
+.replay-btn {
+	display: block;
+	width: 46.79px;
+	height: 25.6px;
+	margin: 10px auto;
+}
+
+.copy-container p {
+	width: 600px;
+	height: 51.2px;
+	font-size: 17px;
+	line-height: 26px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.siri-hardare-container {
+	width: 980px;
+	height: 649.6px;
+	margin: 0px auto;
+	margin-top: 80px;
+}
+
+.animate-levitate {
+	width: 307px;
+	height: 626px;
+	position: relative;
+}
+
+.image-experience-shadow-n {
+	width: 572px;
+	height: 839px;
+	position: absolute;
+	left: 150px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+}
+
+.image-experience-hardware-silver-n {
+	width: 306px;
+	height: 623px;
+	position: absolute;
+	left: 330px;
+	top: 40px;
+	background-image: url(../img/appleMusic/experience_hardware_silver_large.png);
+}
+
+.siri-mediaObject-n {
+	width: 264px;
+	height: 470px;
+	position: absolute;
+	left: 350px;
+	top: 117px;
+}
+
+.siri-command {
+	width: 980px;
+	height: 569.6px;
+	margin: 0px auto;
+	position: relative;
+	top: -800px;
+	padding-top: 80px;
+}
+
+.row {
+	width: 980px;
+	height: 142.4px;
+	position: relative;
+	top: 200px;
+}
+
+.command-1 {
+	width: 293.6px;
+	height: 77.6px;
+	display: table-cell;
+	text-align: center;
+	font-size: 17px;
+}
+
+.command-1 hr {
+	display: block;
+	width: 296.1px;
+	height: 0px;
+	margin-bottom: 11px;
+	border: 1px solid #EFCED4;
+	border-bottom-style: inset;
+	border-bottom: #FCF7F8;
+}
+
+.command-color1 {
+	color: #EFCED4;
+}
+
+.command-color2 {
+	color: #E4CDDB;
+}
+
+.message-subsection {
+	width: 100%;
+	height: 623.2px;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	background-color: #FAFAFA;
+}
+
+.message-section-content {
+	width: 980px;
+	height: 623.2px;
+	margin: 0px auto;
+}
+
+.message-send-container {
+	width: 980px;
+	height: 623.6px;
+}
+
+.row1 {
+	width: 980px;
+	height: 623.2px;
+	position: relative;
+}
+
+.image-drop-shadow {
+	width: 572px;
+	height: 839px;
+	position: absolute;
+	left: -130px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+}
+
+.image-experience-silver-n {
+	width: 306px;
+	height: 623px;
+	position: absolute;
+	top: 50px;
+	background-image: url(../img/appleMusic/experience_hardware_silver_large.png);
+}
+
+.image-drop-shadow1 {
+	width: 572px;
+	height: 839px;
+	position: absolute;
+	top: 0px;
+	right: -130px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+}
+
+.image-experience-silver-n1 {
+	width: 306px;
+	height: 623px;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	background-image: url(../img/appleMusic/experience_hardware_gold_large.png);
+}
+
+.message-send-mediaObject {
+	width: 264px;
+	height: 470px;
+	position: absolute;
+	top: 125px;
+	left: 20px;
+	background-image: url(../img/appleMusic/experience_messages_01_large.jpg);
+}
+
+.message-receive-mediaObject {
+	width: 264px;
+	height: 470px;
+	position: absolute;
+	top: 125px;
+	left: 695px;
+	background-image: url(../img/appleMusic/experience_messages_02_large.jpg);
+}
+
+.copy-container1 {
+	width: 367.2px;
+	height: 623.2px;
+	padding: 0px 25px;
+	position: absolute;
+	top: 240px;
+	left: 300px;
+}
+
+.section-subheadline {
+	width: 301.6px;
+	height: 46.4px;
+	padding-left: 16px;
+	font-size: 40px;
+	line-height: 47px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.copy-container1 p {
+	width: 317.6px;
+	height: 102.4px;
+	font-size: 17px;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.radio-stations {
+	width: 100%;
+	height: 1103.6px;
+	margin-top: 154px;
+	padding-bottom: 200px;
+	/*border: 1px solid;*/
+}
+
+.section-content2 {
+	width: 980px;
+	height: 165.8px;
+	margin: 0px auto;
+}
+
+.column1 {
+	width: 408.325px;
+	height: 40px;
+	margin: 0px auto;
+}
+
+.subsection-headline {
+	width: 395.525px;
+	height: 40px;
+	margin: 0px auto;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.subsection-copy {
+	width: 490px;
+	height: 76.8px;
+	/*margin: 19px 450px 30px 450px;*/
+	margin: 19px auto;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	color: #898989;
+}
+
+.radio-stations-container {
+	width: 100%;
+	height: 785px;
+}
+
+.section-content1 {
+	width: 980px;
+	height: 785px;
+	margin: 0px auto;
+}
+
+.station-gallery {
+	width: 306px;
+	height: 625px;
+	padding-top: 50px;
+	padding-bottom: 110px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.station-hardware {
+	width: 306px;
+	height: 625px;
+	margin: 0px auto;
+	background-image: url(../img/appleMusic/beats1_screen_toeverygenre_large.png);
+	position: absolute;
+}
+
+.image-drop-shadow-1 {
+	width: 572px;
+	height: 839px;
+	background-image: url(../img/appleMusic/experience_shadow_large.png);
+	position: absolute;
+	left: -150px;
+	top: -50px;
+}

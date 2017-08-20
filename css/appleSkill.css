@@ -1,0 +1,243 @@
+.section-hero-content {
+	width: 100%;
+	/*height: 620px;*/
+	/*position: relative;*/
+}
+
+.hero-content {
+	width: 100%;
+	/*height: 620px;*/
+	opacity: 1;
+	/*position: relative;*/
+	transform: translate3d(0px 0px 0px);
+}
+
+.hero-video-container {
+	width: 100%;
+	/*height: 620px;*/
+	/*z-index: 1;*/
+}
+
+.hero-video {
+	width: 1519.2px;
+	height: 796px;
+	margin-top: -90px;
+	/*z-index: 1;*/
+}
+
+.section-card-grid {
+	width: 1519.2px;
+	height: 3688px;
+	/*z-index: 100;*/
+	background-color: #000000;
+	border-bottom: 1px solid #444444;
+	position: relative;
+	top: -100px;
+}
+
+.intro {
+	width: 100%;
+	height: 284px;
+	border-top: 1px solid #444444;
+	position: relative;
+	z-index: 1000;
+}
+
+.intro-content {
+	width: 780px;
+	height: 284px;
+	color: #C2C2C2;
+	margin: 0px auto;
+	padding: 110px 0px;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 32px;
+}
+
+.card-grid {
+	width: 100%;
+	height: 3402px;
+	border-top: 1px solid #444444;
+}
+
+.card-grid-wrapper {
+	width: 100%;
+	height: 3402px;
+}
+
+.column {
+	width: 379px;
+	height: 567px;
+	background-color: #000000;
+	float: left;
+	border: 1px solid #444444;
+	border-top: 0px;
+	border-right: 0px;
+}
+
+.cardfl {
+	border-left: 0px;
+}
+
+.content {
+	width: 1024px;
+	height: 441px;
+}
+
+.card-text-masked {
+	width: 400px;
+	height: 200px;
+	/*border: 1px solid #FFFFFF;*/
+	margin: 0px auto;
+	line-height: 57px;
+	text-align: center;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-size: 100% auto;
+	padding-bottom: 10px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.text {
+	width: 300px;
+	height: 200px;
+	/*border: 1px solid #FFFFFF;*/
+	color: white;
+	font-weight: bold;
+	font-size: 47px;
+	margin: 0px auto;
+	opacity: 1;
+	/*display: block;*/
+	margin-top: 130px;
+}
+
+.column:hover .text {
+	display: none;
+}
+
+.column:hover .text1 {
+	display: block;
+}
+
+.mask1 {
+	background-image: url(../img/appleskill/great_portrait_crop_large.jpg);
+}
+
+.mask2 {
+	background-image: url(../img/appleskill/edit_selfie_crop_large.jpg);
+}
+
+.mask3 {
+	background-image: url(../img/appleskill/customize_memories_crop_large.jpg);
+}
+
+.mask4 {
+	background-image: url(../img/appleskill/close_up_crop_large.jpg);
+}
+
+.mask5 {
+	background-image: url(../img/appleskill/backlit_subject_crop_large.jpg);
+}
+
+.mask6 {
+	background-image: url(../img/appleskill/share_memories_crop_large.jpg);
+}
+
+.mask7 {
+	background-image: url(../img/appleskill/bold_and_simple_crop_large.jpg);
+}
+
+.mask8 {
+	background-image: url(../img/appleskill/action_crop_large.jpg);
+}
+
+.mask9 {
+	background-image: url(../img/appleskill/intimate_moment_crop_large.jpg);
+}
+
+.mask10 {
+	background-image: url(../img/appleskill/black_and_white_crop_large.jpg);
+}
+
+.mask11 {
+	background-image: url(../img/appleskill/unique_angle_crop_large.jpg);
+}
+
+.mask12 {
+	background-image: url(../img/appleskill/zoom_crop_large.jpg);
+}
+
+.mask13 {
+	background-image: url(../img/appleskill/horizon_crop_large.jpg);
+}
+
+.mask14 {
+	background-image: url(../img/appleskill/while_filming_crop_large.jpg);
+}
+
+.mask15 {
+	background-image: url(../img/appleskill/street_light_crop_large.jpg);
+}
+
+.mask16 {
+	background-image: url(../img/appleskill/bold_and_simple_crop_large.jpg);
+}
+
+.mask17 {
+	background-image: url(../img/appleskill/golden_hour_crop_large.jpg);
+}
+
+.mask18 {
+	background-image: url(../img/appleskill/one_handed_selfie_crop_large.jpg);
+}
+
+.mask19 {
+	background-image: url(../img/appleskill/edit_selfie_crop_large.jpg);
+}
+
+.mask20 {
+	background-image: url(../img/appleskill/sunset_silhouette_crop_large.jpg);
+}
+
+.mask21 {
+	background-image: url(../img/appleskill/intimate_moment_crop_large.jpg);
+}
+
+.mask22 {
+	background-image: url(../img/appleskill/selfie_with_the_timer_crop_large.jpg);
+}
+
+.mask23 {
+	background-image: url(../img/appleskill/backlit_subject_crop_large.jpg);
+}
+
+.text1 {
+	cursor: pointer;
+	width: 379px;
+	height: 567px;
+	overflow: hidden;
+	display: none;
+}
+
+.text1>img {
+	width: 379px;
+	height: 567px;
+	transition: all 3s;
+	position: relative;
+	/*z-index: 1;*/
+}
+
+.text1:hover>img {
+	transform: scale(1.1);
+}
+
+.text-play img {
+	width: 90px;
+	height: 90px;
+	position: relative;
+	z-index: 100;
+	left: 145px;
+	top: -350px;
+}
