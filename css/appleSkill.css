@@ -1,32 +1,26 @@
 .section-hero-content {
 	width: 100%;
-	/*height: 620px;*/
-	/*position: relative;*/
 }
 
 .hero-content {
 	width: 100%;
-	/*height: 620px;*/
 	opacity: 1;
-	/*position: relative;*/
 	transform: translate3d(0px 0px 0px);
 }
 
 .hero-video-container {
 	width: 100%;
-	/*height: 620px;*/
-	/*z-index: 1;*/
+	height: 780px;
 }
 
 .hero-video {
-	width: 1519.2px;
-	height: 796px;
-	margin-top: -90px;
-	/*z-index: 1;*/
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
 }
 
 .section-card-grid {
-	width: 1519.2px;
+	width: 100%;
 	height: 3688px;
 	/*z-index: 100;*/
 	background-color: #000000;
@@ -67,7 +61,7 @@
 }
 
 .column {
-	width: 379px;
+	width: 24.9%;
 	height: 567px;
 	background-color: #000000;
 	float: left;
@@ -220,9 +214,12 @@
 	overflow: hidden;
 	display: none;
 }
-
+.text1{
+    width: 100%;
+    height: 567px;	
+}
 .text1>img {
-	width: 379px;
+	width: 100%;
 	height: 567px;
 	transition: all 3s;
 	position: relative;
