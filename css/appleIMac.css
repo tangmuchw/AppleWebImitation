@@ -1,0 +1,1444 @@
+#main {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.shopHeader {
+	width: 100%;
+	height: 52px;
+}
+
+.iMac-shop {
+	width: 980px;
+	height: 52px;
+	line-height: 52px;
+	margin: 0px auto;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.iMac-shop-left {
+	float: left;
+	font-size: 24px;
+}
+
+.iMac-shop-right {
+	float: right;
+	position: relative;
+	left: 15px;
+}
+
+.iMac-shop-right li {
+	float: left;
+	font-size: 12px;
+	margin: 0px 16px;
+}
+
+.iMac-shop-right a {
+	color: black;
+}
+
+
+/*.iMac-shop-right .iMac-shop-right-1{
+	color: #858585;
+}*/
+
+.iMac-shop-right .iMac-shop-right-2 {
+	color: white;
+	display: inline-block;
+	width: 48px;
+	height: 24px;
+	background-color: #147FD3;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+/*第一部分开始*/
+
+.iMac-container1 {
+	width: 100%;
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+.iMac-main1 {
+	width: 980px;
+	height: 126.4px;
+	margin: 0px auto;
+	/*border: 1px solid;*/
+	text-align: center;
+}
+
+.iMac-main1 h1 {
+	font-size: 40px;
+}
+
+.iMac-main1 h2 {
+	font-size: 70px;
+	margin-left: 45px;
+	/*font-family: 微软雅黑;*/
+}
+
+.iMac-image-wrapper {
+	margin: 0px auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	width: 980px;
+	height: 780px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+.iMac-image-wrapper .iMac-image-wrapper-left {
+	background: url(../img/appleIMac/imac_21_hero_large.jpg) center center no-repeat;
+	width: 597px;
+	height: 607px;
+	position: absolute;
+	left: -67px;
+	top: 137px;
+	right: 450px;
+}
+
+.iMac-image-wrapper .iMac-image-wrapper-right {
+	background: url(../img/appleIMac/imac_27_hero_large.jpg) center center no-repeat;
+	width: 651px;
+	height: 782px;
+	position: absolute;
+	left: 448px;
+}
+
+.iMac-Adv1 {
+	width: 735px;
+	height: 160px;
+	margin: 0px 122.5px;
+	/*border: 1px solid;*/
+	margin: 0px auto;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: .016em;
+	text-align: center;
+	color: #5F5959;
+}
+
+.iMac-Adv2 {
+	width: 980px;
+	height: 32px;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 14.5px;
+	font-size: 22px;
+	letter-spacing: 0.016em;
+	font-weight: 500;
+}
+
+.iMac-Adv3 {
+	width: 980px;
+	height: 32px;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 14.5px;
+	font-size: 22px;
+	letter-spacing: 0.016em;
+	font-weight: 500;
+}
+
+
+/*第一部分结束*/
+
+
+/*第二部分开始*/
+
+.iMac-container2 {
+	width: 100%;
+	height: 1832px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main2 {
+	width: 1400px;
+	height: 1702px;
+	padding-top: 130px;
+	margin: 0px auto;
+}
+
+.iMac-main2-content {
+	width: 980px;
+	height: 212px;
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+}
+
+.iMac-main2-content h2 {
+	/*border: 1px solid green;*/
+	width: 653px;
+	height: 212px;
+	color: rgb(17, 17, 17);
+	/*direction: ltr;*/
+	font-size: 72px;
+	font-weight: 600;
+}
+
+.iMac-main2-content .iMac-sp1 {
+	display: block;
+	width: 653px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	/*border:1px solid #1E1E1E;*/
+	/*margin-top:0px ;*/
+}
+
+.iMac-image-wrapper2 {
+	width: 1400px;
+	height: 1470px;
+	margin-top: 20px;
+	margin: 0px auto;
+	/*border: 1px solid black;*/
+	background: url(../img/appleIMac/performance_large.jpg) center center no-repeat;
+}
+
+
+/*第二部分结束*/
+
+
+/*第三部分开始*/
+
+.iMac-container3 {
+	width: 100%;
+	height: 461px;
+	/*border: 1px solid;*/
+}
+
+.iMac-main3 {
+	width: 980px;
+	height: 201.5px;
+	margin: 0px auto;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+}
+
+.iMac-main3 .iMac-main3-content {
+	width: 816px;
+	height: 199.5px;
+	/*margin: 0px auto;*/
+}
+
+.iMac-main3-content h4 {
+	width: 816px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 26px;
+	font-weight: 600px;
+	letter-spacing: 0.116em;
+}
+
+.iMac-main3-content p {
+	width: 816px;
+	height: 144px;
+	font-size: 24px;
+	font-weight: 300px;
+	line-height: 30px;
+	letter-spacing: 0.09em;
+	margin-top: 19.5px;
+	color: #5F5F5F;
+}
+
+
+/*第三部分结束*/
+
+
+/*第四部分开始*/
+
+.iMac-container4 {
+	width: 100%;
+	height: 1088.8px;
+}
+
+.iMac-main4 {
+	width: 1400px;
+	height: 1088.8px;
+	margin: 0px auto;
+}
+
+.iMac-main4-box {
+	width: 1370px;
+	padding: 25px;
+}
+
+.iMac-main4-left {
+	width: 402px;
+	height: 780px;
+	padding: 134px 134px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main4-left-1 {
+	width: 403px;
+	height: 781px;
+}
+
+.iMac-main4-right {
+	width: 406px;
+	height: 780.8px;
+	padding: 134px 134px;
+	background: url(../img/appleIMac/think_fast_large.jpg) center center no-repeat;
+	background-color: #FAFAFA;
+}
+
+.iMac-main4-left-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main4-left-1 p {
+	margin-top: 17.5px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+
+/*第四部分结束*/
+
+
+/*第五部分开始*/
+
+.iMac-container5 {
+	width: 100%;
+	height: 740px;
+}
+
+.iMac-main5 {
+	width: 1400px;
+	height: 744.8px;
+	margin-top: -20px;
+	margin-bottom: -260px;
+	margin: 0px auto;
+}
+
+.iMac-main5-box {
+	width: 1370px;
+	height: 705px;
+	padding: 10px 25px;
+}
+
+.iMac-main5-left {
+	width: 402px;
+	height: 466.75px;
+	padding: 134px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main5-left-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main5-left-1 p {
+	margin-top: 17.5px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.iMac-main5-right-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main5-right-1 p {
+	margin-top: 17.5px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.iMac-main5-right {
+	width: 406px;
+	height: 466.75px;
+	padding: 134px;
+	background-color: #FAFAFA;
+}
+
+.mimi-ruler {
+	width: 32px;
+	border-style: solid;
+	border-color: #333;
+	border-width: 1px;
+	display: block;
+	text-align: left;
+	margin: 68px 0 20px;
+}
+
+.iMac-main5-badge {
+	width: 403.3px;
+	height: 165.2px;
+}
+
+.iMac-main5-badge-left {
+	width: 168px;
+	height: 163.1px;
+}
+
+.iMac-main5-badge-left1 {
+	width: 168px;
+	height: 163px;
+	margin-right: 40px;
+}
+
+.iMac-main5-badge-content {
+	width: 168px;
+	height: 133px;
+	padding: 6px 0px 4px 0px;
+}
+
+.iMac-main5-badge-caption {
+	width: 168px;
+	height: 20px;
+	display: block;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.iMac-main5-badge-value {
+	font-size: 60px;
+	position: relative;
+	left: -2px;
+	right: 2px;
+	margin-top: 10px;
+	/*letter-spacing: 0.018em;*/
+}
+
+.iMac-main5-badge-unit {
+	font-size: 30px;
+	position: relative;
+	left: -15px;
+}
+
+.wider {
+	width: 168px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 16px;
+	display: block;
+}
+
+.wider sup {
+	font-size: 9.6px;
+	position: relative;
+	left: -5px;
+}
+
+
+/*第五部分结束*/
+
+
+/*第六部分开始*/
+
+.iMac-container6 {
+	width: 100%;
+	height: 1100px;
+}
+
+.iMac-main6 {
+	width: 980px;
+	height: 800px;
+	padding-top: 136px;
+	padding-bottom: 150px;
+	margin: -40px auto -150px auto;
+}
+
+.iMac-main6-box {
+	width: 980px;
+	height: 945px;
+}
+
+.iMac-main6-box-left {
+	width: 497px;
+	height: 1250px;
+	margin-top: -461px;
+	margin-left: -57px;
+	margin-bottom: 85px;
+	background: url(../img/appleIMac/imac_large.jpg);
+}
+
+.iMac-main6-box-right {
+	width: 408px;
+	height: 708px;
+	/*margin-top: -30px;*/
+}
+
+.iMac-main6-box-right1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.iMac-main6-box-right2 {
+	width: 408px;
+	height: 54.5px;
+	font-size: 16px;
+	line-height: 27.2px;
+	margin-top: 11.9px;
+}
+
+.iMac-main6-box-right2 sup {
+	font-size: 9.6px;
+}
+
+.vr-wrapper {
+	width: 464px;
+	height: 382px;
+	margin-top: 140px;
+	margin-left: -56px;
+	background: url(../img/appleIMac/vr_large.png) center center no-repeat;
+}
+
+.vr-shadow {
+	width: 464px;
+	height: 69px;
+	background: url(../img/appleIMac/vr_shadow_large.png) center center no-repeat;
+	margin-top: 120px;
+	margin-left: -50px;
+}
+
+
+/*第六部分结束*/
+
+
+/*第七部分开始*/
+
+.iMac-container7 {
+	width: 100%;
+	height: 1700px;
+	padding-bottom: 130px;
+}
+
+.iMac-main7 {
+	width: 100%;
+	height: 1650px;
+	padding-top: 130px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main7-box {
+	width: 1400px;
+	height: 1577px;
+	margin: 0px auto -412px auto;
+}
+
+.iMac-main7-box-content {
+	width: 980px;
+	height: 212px;
+	margin: 0px auto;
+}
+
+.section-headline {
+	width: 653px;
+	height: 212px;
+	font-size: 72px;
+	font-weight: 600;
+}
+
+.section-headline .section-headline-eyebrow {
+	display: block;
+	width: 653px;
+	height: 24px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.iMac-main7-content {
+	width: 1400px;
+	height: 1475px;
+	margin-top: -110px;
+	background: url(../img/appleIMac/display_large.jpg) center center no-repeat;
+}
+
+
+/*第七部分结束*/
+
+
+/*第八部分开始*/
+
+
+/*同第三部分*/
+
+
+/*第八部分结束*/
+
+
+/*第九部分开始*/
+
+.iMac-container9 {
+	width: 100%;
+	height: 768px;
+	padding-bottom: 130px;
+}
+
+.iMac-main9 {
+	width: 1400px;
+	height: 768px;
+	margin-top: -20px;
+	margin-bottom: -260px;
+	margin: 0px auto;
+}
+
+.iMac-main9-box {
+	width: 1370px;
+	height: 460px;
+	padding: 10px 25px;
+}
+
+.iMac-main9-left {
+	width: 402px;
+	height: 460px;
+	padding: 134px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main9-left-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main9-left-1 {
+	/*width: 466px;
+	height: 561px;
+	background: url(../img/appleIMac/retina_display_large.jpg) center center no-repeat;*/
+}
+
+.iMac-main9-right-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main9-right-1 p {
+	/*margin-top: 17.5px;*/
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.iMac-main9-right {
+	width: 406px;
+	height: 460px;
+	padding: 134px;
+	background-color: #FAFAFA;
+}
+
+.mimi-ruler {
+	width: 32px;
+	border-style: solid;
+	border-color: #333;
+	border-width: 1px;
+	display: block;
+	text-align: left;
+	margin: 10px 0 40px;
+}
+
+.iMac-main9-badge {
+	width: 403.3px;
+	height: 165.2px;
+}
+
+.iMac-main9-badge-left {
+	width: 168px;
+	height: 163.1px;
+}
+
+.iMac-main9-badge-left1 {
+	width: 168px;
+	height: 163px;
+	margin-right: 40px;
+}
+
+.iMac-main9-badge-content {
+	width: 168px;
+	height: 133px;
+	padding: 6px 0px 4px 0px;
+}
+
+.iMac-main9-badge-caption {
+	width: 168px;
+	height: 20px;
+	display: block;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.iMac-main9-badge-value {
+	font-size: 60px;
+	position: relative;
+	left: -2px;
+	right: 2px;
+	margin-top: 10px;
+	/*letter-spacing: 0.018em;*/
+}
+
+.iMac-main9-badge-unit {
+	font-size: 30px;
+	position: relative;
+	left: 0px;
+	top: -20px;
+}
+
+.wider {
+	width: 168px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 16px;
+	display: block;
+}
+
+.wider sup {
+	font-size: 9.6px;
+	position: relative;
+	left: -5px;
+}
+
+
+/*第九部分结束*/
+
+
+/*第十部分开始*/
+
+.iMac-container10 {
+	width: 100%;
+	height: 1900px;
+}
+
+.iMac-main10 {
+	width: 100%;
+	height: 1453px;
+	padding: 130px 0px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main10-box {
+	width: 1400px;
+	height: 1453px;
+	padding-bottom: 90px;
+	margin: 0px auto;
+}
+
+.iMac-main10-wrapper {
+	width: 1497px;
+	height: 1171px;
+	margin-left: 66px;
+	margin-top: 70px;
+	background: url(../img/appleIMac/connectivity_large.jpg) center center no-repeat;
+}
+
+
+/*第十部分结束*/
+
+
+/*第十一部分开始*/
+
+.iMac-container11 {
+	width: 100%;
+	height: 1549px;
+	margin-bottom: 1px;
+}
+
+.iMac-main11-up {
+	width: 980px;
+	height: 291.7px;
+	margin: 0px auto;
+	margin-bottom: 130px;
+}
+
+.iMac-main11-up-column {
+	width: 816.66px;
+	height: 289.7px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.iMac-main11-up-column-intro {
+	width: 816.66px;
+	height: 180px;
+	margin-top: 19.5px;
+	line-height: 36px;
+	color: #727272;
+	/*margin-bottom: 18.2px;*/
+}
+
+.iMac-main11-up-column-intro .iMac-main11-up-moreinfo {
+	font-size: 26px;
+	font-weight: 300;
+	/*margin-top: 50px;*/
+	color: #68AADF;
+	line-height: 36px;
+	position: relative;
+	top: 18.2px;
+}
+
+.iMac-main11-up-column-intro a:hover {
+	text-decoration: underline;
+}
+
+.iMac-main11-down {
+	width: 1360px;
+	height: 800px;
+	margin: 0px auto;
+	background-color: #FAFAFA;
+	/*background: url(../img/appleIMac/stay_connected_large.jpg) center center no-repeat;*/
+}
+
+.iMac-main11 {
+	width: 1400px;
+	height: 768px;
+	margin-top: -20px;
+	margin-bottom: -260px;
+	margin: 0px auto;
+}
+
+.iMac-main11-box {
+	width: 1370px;
+	height: 460px;
+	padding: 10px 20px;
+	margin-top: 15px;
+}
+
+.iMac-main11-left {
+	width: 402px;
+	height: 247px;
+	padding: 134px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main11-left-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main11-left-1 {
+	width: 621px;
+	height: 277px;
+	margin-left: -105px;
+	/*border: 1px solid black;*/
+	background: url(../img/appleIMac/connectivity_resolution_large.jpg) center center no-repeat;
+}
+
+.iMac-main11-right-1-headline {
+	width: 403px;
+	height: 40px;
+	border-collapse: separate;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.iMac-main11-right-1 p {
+	/*margin-top: 17.5px;*/
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.iMac-main11-right {
+	width: 400px;
+	height: 247px;
+	padding: 134px;
+	position: relative;
+	left: -10px;
+	background-color: #FAFAFA;
+}
+
+.mimi-ruler {
+	width: 32px;
+	border-style: solid;
+	border-color: #333;
+	border-width: 1px;
+	display: block;
+	text-align: left;
+	margin: 10px 0 40px;
+}
+
+.iMac-main11-badge {
+	width: 403.3px;
+	height: 165.2px;
+}
+
+.iMac-main11-badge-left {
+	width: 168px;
+	height: 163.1px;
+}
+
+.iMac-main11-badge-left1 {
+	width: 168px;
+	height: 163px;
+	margin-right: 40px;
+}
+
+.iMac-main11-badge-content {
+	width: 168px;
+	height: 133px;
+	padding: 6px 0px 4px 0px;
+}
+
+.iMac-main11-badge-unit {
+	font-size: 32px;
+	position: relative;
+	left: 0px;
+	top: -20px;
+	/*margin-bottom: ;*/
+	line-height: 40px;
+}
+
+.iMac-main11-badge-unit p {
+	margin-top: 12.5px;
+}
+
+.iMac-main11-right-1-wrapper {
+	width: 402.4px;
+	height: 86.8px;
+	margin-top: 32px;
+}
+
+.iMac-main11-right-1-wrapper-5k {
+	margin-right: 30px;
+}
+
+
+/*第十一部分结束*/
+
+
+/*第十二部分开始*/
+
+.iMac-container12 {
+	width: 100%;
+	height: 2603px;
+	padding-top: 130px;
+	margin-top: 260px;
+}
+
+.iMac-main12 {
+	width: 980px;
+	height: 747px;
+	margin: 0px auto;
+}
+
+.iMac-main12-eyebrow {
+	display: block;
+	width: 980px;
+	height: 24px;
+	font-size: 24px;
+}
+
+.iMac-main12-section-headline {
+	width: 980px;
+	height: 128px;
+	font-size: 72px;
+}
+
+.iMac-main12-wrapper {
+	width: 1955px;
+	height: 549px;
+	margin-top: 70px;
+	margin-left: -771px;
+	background: url(../img/appleIMac/design_large.jpg)center center no-repeat;
+}
+
+.iMac-main12-section-content {
+	width: 980px;
+	height: 276px;
+	margin: 0px auto;
+	padding: 130px 0px;
+}
+
+.iMac-main12-box {
+	width: 980px;
+	height: 276px;
+}
+
+.iMac-main12-section-left {
+	width: 735px;
+	height: 235.5px;
+}
+
+.iMac-main12-section-left-eyebrow {
+	display: block;
+	width: 745px;
+	height: 36px;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.iMac-main12-section-left p {
+	width: 735px;
+	height: 180px;
+	margin-top: 19.5px;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	color: #818181;
+}
+
+.iMac-main12-badge-content {
+	padding-top: 6px;
+	padding-bottom: 4px;
+	margin: 10px auto;
+}
+
+.iMac-main12-badge-caption {
+	display: block;
+	width: 172.6px;
+	height: 20px;
+	font-size: 16px;
+}
+
+.iMac-main12-badge-value {
+	width: 172.6px;
+	height: 68px;
+	font-size: 66px;
+	position: relative;
+	left: -2px;
+	right: 2px;
+}
+
+.iMac-main12-badge-unit {
+	font-size: 44px;
+	font-weight: 600;
+}
+
+.section-content-wide {
+	width: 1400px;
+	height: 1320px;
+	margin: 0px auto;
+}
+
+.section-content-wide-box {
+	width: 1365px;
+	height: 1280px;
+}
+
+.section-content-wide-box-left {
+	width: 669.6px;
+	height: 1280px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	/*border: 1px solid;*/
+}
+
+.section-content-wide-box-left-wrapper {
+	width: 669.6px;
+	height: 1280px;
+	background: url(../img/appleIMac/imac_side_large.jpg) center center no-repeat;
+}
+
+.section-content-wide-box-right {
+	margin-top: 20px;
+	width: 670.4px;
+	height: 1280px;
+}
+
+.section-content-wide-up {
+	width: 670.4px;
+	height: 630px;
+	background-color: #F2F2F2;
+	background: url(../img/appleIMac/imac_back_large.jpg) center center no-repeat;
+}
+
+.section-content-wide-down {
+	width: 670.4px;
+	height: 630px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	background: url(../img/appleIMac/imac_extreme_angle_large.jpg) center center no-repeat;
+}
+
+
+/*第十二部分结束*/
+
+
+/*第十三部分开始*/
+
+.iMac-container13 {
+	width: 100%;
+	height: 1431.65px;
+	padding: 130px 0px;
+}
+
+.iMac-main13 {
+	width: 980px;
+	height: 1284.75px;
+	margin: 0px auto;
+}
+
+.iMac-main13-section-headline {
+	width: 980px;
+	height: 212px;
+	font-size: 72px;
+	font-weight: 600;
+	line-height: 86.8px;
+}
+
+.iMac-main13-eyebrow {
+	width: 980px;
+	height: 24px;
+	display: block;
+	margin-bottom: 20px;
+	line-height: 24px;
+	font-size: 24px;
+}
+
+.iMac-main13-intro {
+	width: 980px;
+	height: 110px;
+	margin-top: 12.75px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.iMac-main13-section-intro {
+	width: 735px;
+	height: 108px;
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 36px;
+	color: #727272;
+}
+
+.iMac-main13-wrapper {
+	width: 980px;
+	height: 950px;
+	margin: 0px auto;
+	margin-top: 100px;
+	position: relative;
+}
+
+.iMac-main13-wrapper1 {
+	width: 1220px;
+	height: 339px;
+	position: absolute;
+	left: -520px;
+	/*right: 280px;*/
+	background: url(../img/appleIMac/long_keyboard_large.png) center center no-repeat;
+}
+
+.iMac-main13-wrapper2 {
+	width: 476px;
+	height: 337px;
+	background: url(../img/appleIMac/touchpad_large.png) center center no-repeat;
+	position: absolute;
+	left: 734px;
+}
+
+.iMac-main13-wrapper3 {
+	width: 206px;
+	height: 351px;
+	position: absolute;
+	left: -20px;
+	top: 408px;
+	background: url(../img/appleIMac/mouse_large.png) center center no-repeat;
+}
+
+.iMac-main13-wrapper4 {
+	width: 809px;
+	height: 339px;
+	position: absolute;
+	left: 224px;
+	top: 415px;
+	/*border: 1px solid;*/
+	background: url(../img/appleIMac/short_keyboard_large.png) center center no-repeat;
+}
+
+.iMac-main13-menu {
+	width: 980px;
+	height: 146.9px;
+	margin: 0px auto;
+}
+
+.iMac-main13-box {
+	width: 980px;
+	height: 146.9px;
+}
+
+.iMac-main13-column {
+	width: 186.2px;
+	height: 98.5px;
+	padding-right: 58px;
+}
+
+.typography-custom-accessories-headline {
+	width: 186.2px;
+	height: 25.6px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 26px;
+}
+
+.typography-subbody1 {
+	width: 186.2px;
+	height: 62.4px;
+	margin-top: 10.5px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.typography-subbody2 {
+	width: 186.2px;
+	height: 83.2px;
+	margin-top: 30.5px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.typography-subbody3 {
+	width: 245px;
+	height: 41.6px;
+	margin-top: 10.5px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+/*第十三部分结束*/
+
+
+/*第十四部分开始*/
+
+.iMac-container14 {
+	width: 100%;
+	height: 1205.15px;
+	padding: 130px 0px;
+	background-color: #FAFAFA;
+}
+
+.iMac-main14 {
+	width: 980px;
+	height: 1205.15px;
+	margin: 0px auto;
+}
+
+.iMac-main14-section-headline {
+	width: 980px;
+	height: 128px;
+	font-size: 64px;
+	font-weight: 600;
+}
+
+.iMac-main14-eyebrow {
+	display: block;
+	width: 980px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.iMac-main14-conntent {
+	width: 735px;
+	height: 162.4px;
+	margin-top: 12.75px;
+	margin-bottom: 24px;
+}
+
+.iMac-main14-section-intro {
+	width: 745px;
+	height: 108px;
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 36px;
+}
+
+.iMac-main14-up-moreinfo {
+	font-size: 26px;
+	font-weight: 300;
+	/*margin-top: 50px;*/
+	color: #0070C9;
+	line-height: 36px;
+	position: relative;
+	top: 18.2px;
+}
+
+.iMac-main14-up-moreinfo:hover {
+	text-decoration: underline;
+}
+
+.iMac-main14-weapper {
+	width: 1078px;
+	height: 878px;
+	margin-left: 3px;
+	background: url(../img/appleIMac/imac_osx_large.jpg) center center no-repeat;
+}
+
+
+/*第十四部分结束*/
+
+
+/*主体结束*/
+
+
+/*尾部开始*/
+
+#footer {
+	width: 100%;
+	height: 920px;
+	background-color: #F2F2F2;
+}
+
+.global-footer {
+	width: 980px;
+	height: 920px;
+	padding: 0px 22px;
+	margin: 0px auto;
+}
+
+.buy-strip {
+	width: 980px;
+	height: 573.96px;
+}
+
+.buy-strip-hero {
+	width: 980px;
+	height: 198.4px;
+	padding-top: 60px;
+}
+
+.buy-strip-hero-block {
+	/*display: inline-block;*/
+	display: block;
+	width: 980px;
+	height: 198.4px;
+}
+
+.buy-strip-left {
+	width: 242px;
+	height: 198px;
+	margin-left: 150px;
+	background: url(../img/appleIMac/buystrip_hero_large.png) center center no-repeat;
+}
+
+.buy-strip-right {
+	width: 395.6px;
+	height: 135.8px;
+	position: relative;
+	left: -150px;
+}
+
+.buystrip-hero-title {
+	width: 395.6px;
+	height: 40px;
+	margin-bottom: 3px;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.buystrip-hero-copy {
+	width: 395.6px;
+	height: 28px;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #333333;
+}
+
+.buystrip-hero-cta {
+	display: block;
+	font-size: 17px;
+	line-height: 26px;
+	width: 395.6px;
+	height: 25.6px;
+	margin-top: 30px;
+	color: #0070C9;
+}
+
+.buystrip-hero-cta:hover {
+	text-decoration: underline;
+}
+
+.buy-strip-info {
+	width: 980px;
+	height: 254.46px;
+	padding-top: 4px;
+	padding-bottom: 56px;
+}
+
+.buy-strip-info-column {
+	width: 245px;
+	height: 213px;
+}
+
+.buystrip-info-content-with-cta {
+	width: 216px;
+	height: 156.96px;
+	padding-top: 56px;
+	margin: 0px 14.5px;
+}
+
+.buystrip-block {
+	width: 216px;
+	height: 156.96px;
+	text-align: center;
+	display: block;
+}
+.buystrip-info-icon{
+	width: 74px;
+	height: 74px;
+	margin: 0px 71px;
+	/*background: url(../img/appleIMac/icon_large.svg) center center no-repeat;*/
+}
+.buystrip-info-title{
+	width: 216px;
+	height: 24px;
+	font-size: 19px;
+	font-weight: 500;
+	color: #000000;
+	margin-top: 2.375px;
+}
+.buystrip-info-copy{
+	width: 216px;
+	height: 20.8px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #000000;
+	margin-top: 7px;
+	/*margin-bottom: 10px;*/
+}
+
+.buystrip-info-cta{
+	width: 216px;
+	height: 20.8px;
+	display: block;
+	color: #0070C9;
+	margin-top: 11px;
+}
+.buystrip-info-cta:hover{
+	text-decoration: underline;
+}
+.sosumi{
+	width: 980px;
+	height: 335px;
+	margin: 0px auto;
+	padding-top: 7px;
+	border-top: 1px solid #D6D6D6;
+	border-bottom: 1px solid #D6D6D6;
+	color: #888B95;
+}
+.sosumi ol{
+	width: 946px;
+	height: 280px;
+	font-size: 11px;
+	line-height: 18px;
+}
+
+/*尾部结束*/

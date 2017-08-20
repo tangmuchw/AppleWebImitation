@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="63" height="42" viewBox="0 0 63 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #221f1f;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <title>J133-overview-lineart-03-L-crawford</title>
+  <g>
+    <rect id="_Path_" data-name="&lt;Path&gt;" class="cls-1" width="63" height="38"/>
+    <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" x="16.25" y="40" width="30.5" height="2" rx="1" ry="1"/>
+    <rect id="_Path_2" data-name="&lt;Path&gt;" class="cls-2" x="2.003" y="2.04" width="58.994" height="33.994"/>
+    <g>
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-1" d="M32.631,13.92h1.287v4.861h.045c.284-.4.568-.763.823-1.092l2.961-3.768h1.585l-3.56,4.292L39.616,24H38.09l-3.23-4.936-.943,1.092V24H32.631Z"/>
+      <path class="cls-1" d="M27.914,21.3H23.384v-.885l4.346-6.329h1.434v6.176h1.357V21.3H29.164V24h-1.25Zm0-1.037V16.97c0-.5,0-1.037.046-1.571l-.031-.016a9.362,9.362,0,0,1-.854,1.51l-2.333,3.34v.03Z"/>
+    </g>
+  </g>
+</svg>
