@@ -1,0 +1,66 @@
+#apple-footer{
+	width: 100%;
+	background-color: #F2F2F2;
+	color: #85857D;
+	overflow: hidden;
+	padding-bottom: 20px;
+	font-size: 10px;
+}
+#apple-footer a{
+	color: #85857D;
+}
+#apple-footer a:hover{
+	text-decoration: underline;
+}
+.as-globalfooter-content{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.as-globalfooter-title{
+	line-height: 50px;
+	background: url(../img/footer/appleblack.png) left center no-repeat;
+	background-size:15px;
+	text-indent:20px;
+}
+.as-globalfooter-directory-column{
+	width: 108px;
+	margin-right: 80px;
+	float: left;
+}
+.as-globalfooter-directory-column ul{
+	margin-bottom: 30px;
+}
+.as-globalfooter-directory-column--title{
+	font-weight: 600;
+}
+.as-globalfooter-directory-column li{
+	line-height: 22px;
+}
+.as-globalfooter-mini-shop{
+	line-height: 30px;
+	clear: both;
+	border-bottom: 1px solid #D6D6D6;
+}
+#apple-footer .as-globalfooter-mini-shop .AppleStore{
+	color: #579EDD;
+}
+#apple-footer .as-globalfooter-mini-shop .AppleStore:hover{
+	text-decoration: underline;
+}
+.as-globalfooter-mini-legal{
+	line-height: 30px;
+}
+.as-globalfooter-mini-legal-column{
+	margin-left: 30px;
+}
+.as-globalfooter-mini-legal-column li{
+	float: left;
+	margin-right: 10px;
+}
+.as-globalfooter-mini-locale-flag{
+	display: block;
+	width: 50px;
+	background: url(../img/colorMatching/country-icon-cn.png) left center no-repeat;
+	text-indent: 20px;
+}

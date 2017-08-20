@@ -1,0 +1,318 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background-color: #F1F1F1;
+}
+
+#container {
+	width: 980px;
+	height: 532px;
+	border: 1px solid #DCDCDC;
+	margin: 0 auto;
+	margin-top: 54px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#container .account-page-header {
+	width: 932px;
+	margin: 15px 23px 0 23px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	overflow: hidden;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+#container .account-page-header .secure {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.account-content {
+	width: 932px;
+	height: 402px;
+	margin-top: 13px;
+}
+
+#loginform {
+	width: 400px;
+	height: 250px;
+	padding: 90px 0 0 65px;
+	border-right: 1px solid #E4E4E4;
+	position: relative;
+}
+
+#loginform #username,
+#password{
+	width: 330px;
+	height: 35px;
+	margin-bottom: 15px;
+	box-shadow: inset 0 1px 4px #AAA;
+	border: 1px solid #d6d6d6;
+	padding-left: 7px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #797975;
+}
+
+.contact-us {
+	width: 399px;
+	height: 250px;
+	padding-top: 90px;
+}
+
+.loginApple {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#submitbtn {
+	width: 85px;
+	height: 35px;
+	font-size: 14px;
+	color: white;
+	background-color: #2B9CE2;
+	border: 0;
+	border-radius: 5px;
+	margin-right: 60px;
+}
+
+#submitbtn:hover {
+	background-color: #1A72C7;
+}
+
+.go-iforgot {
+	width: 140px;
+	height: 40px;
+}
+
+.go-iforgota {
+	color: #0085CF;
+}
+
+.go-iforgota:hover {
+	text-decoration: underline;
+}
+
+.AppleID {
+	font-size: 16px;
+	color: #333333;
+}
+
+.contact-us ul {
+	list-style-type: disc;
+	font-size: 16px;
+	margin: 10px 30px;
+}
+
+.contact-us ul li {
+	line-height: 25px;
+	color: #333333;
+}
+
+.cart-navigation {
+	width: 932px;
+	padding: 13px 23px;
+	line-height: 35px;
+	border-top: 1px solid #E6E6E6;
+	background: linear-gradient(#fff, #ebebeb) repeat scroll 0 0 transparent;
+	background-color: transparent;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235));
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto auto;
+}
+
+#loginbtn {
+	width: 85px;
+	height: 40px;
+	color: #0085CC;
+	border: 1px solid #B5B5B5;
+	border-radius: 5px;
+}
+
+#loginbtn:hover {
+	background: linear-gradient(#fff, #ebebeb) repeat scroll 0 0 transparent;
+	background-color: transparent;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235));
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto auto;
+}
+
+.details {
+	display: block;
+	width: 300px;
+	background: url(../img/login/phone.png) 180px center no-repeat;
+}
+
+.as-footnotes {
+	line-height: 45px;
+	color: #999999;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.securenote {
+	color: #625B62;
+}
+
+.securenote:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	width: 980px;
+	margin: 0 auto;
+	color: #999999;
+	font-size: 11px;
+}
+
+.as-globalfooter-mini-shop {
+	line-height: 30px;
+	clear: both;
+}
+
+.as-globalfooter-mini-shop .AppleStore {
+	color: #579EDD;
+}
+
+.as-globalfooter-mini-shop .AppleStore:hover {
+	text-decoration: underline;
+}
+
+.as-globalfooter-mini-shop .AppleStore:hover {
+	text-decoration: underline;
+}
+
+.as-globalfooter-mini-legal {
+	line-height: 30px;
+}
+
+.as-globalfooter-mini-legal-column {
+	margin-left: 30px;
+}
+
+.as-globalfooter-mini-legal-column li {
+	float: left;
+	margin-right: 10px;
+}
+
+.as-globalfooter-mini-legal-column a {
+	color: #737369;
+}
+
+.as-globalfooter-mini-legal-column a:hover {
+	text-decoration: underline;
+}
+
+.as-globalfooter-mini-locale-flag {
+	display: block;
+	width: 50px;
+	background: url(../img/colorMatching/country-icon-cn.png) left center no-repeat;
+	text-indent: 20px;
+}
+.msg{
+	padding: 10px;
+	/*width: 85px;*/
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #D6D6D6;
+	background-color: #FFFFC4;
+	text-align: center;
+	border-radius: 5px;
+}
+.coherent_id_6{
+	position: absolute;
+	top: 60px;
+	left: 200px;
+	z-index: 1;
+    display: none;
+	
+}
+.coherent_id_6:after{
+	content: "";
+	display: block;
+    width: 0;
+    height: 0;
+    border-top:17px solid #FFFFC4;
+    border-bottom:17px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: absolute;
+    left: 40px;
+    bottom: -30px;
+}
+.coherent_id_6:before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top:15px solid #D6D6D6;
+    border-bottom:15px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+     position: absolute;
+    left: 40px;
+    bottom: -30px;
+	
+}
+.coherent_id_7{
+	position: absolute;
+	top: 115px;
+	left: 200px;
+	 display: none;
+	z-index: 1;
+}
+.coherent_id_7:after{
+	content: "";
+	display: block;
+    width: 0;
+    height: 0;
+    border-top:17px solid #FFFFC4;
+    border-bottom:17px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position: absolute;
+    left: 28px;
+    bottom: -30px;
+}
+.coherent_id_7:before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top:15px solid #D6D6D6;
+    border-bottom:15px solid transparent;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+     position: absolute;
+    left: 28px;
+    bottom: -30px;
+	
+}
+#errtxt{
+	width: 330px;
+	min-height: 35px;
+	margin-bottom: 15px;
+	background-color: #FFFFC3;
+	border: 1px solid #d6d6d6;
+	padding-left: 7px;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #FF3300;
+	display: none;
+}
+.kongbg{
+	background-color: #FFFFC3;
+}
