@@ -1,12 +1,12 @@
 $(function() {
 	$(document).scroll(function() {
 		var scrollTop = $(document).scrollTop();
-		//		console.log(scrollTop);
+				console.log(scrollTop);
 		var scroll = $(".ac-ln");
 		var border = $(".ac-ln-content");
 		var text1 = $(".video-text")[0];
 		var btn = $(".vedio-btn");
-		if((scrollTop > 83 && scrollTop < 2272) || scrollTop > 11948) {
+		if((scrollTop > 83 && scrollTop < 2300) || scrollTop > 11000) {
 			if(scrollTop > 1100) {
 				$(".line-animation").fadeIn("5000");
 			}
@@ -15,7 +15,7 @@ $(function() {
 			$(".ac-ln-menu a").css("color", "black");
 			$(".ac-ln-title-logo").css("color", "black");
 			border.removeClass("ac-border");
-		} else if(scrollTop > 2272 && scrollTop < 11948) {
+		} else if(scrollTop > 2300 && scrollTop < 11000) {
 			scroll.removeClass("ac-lnhover");
 			scroll.addClass("ac-lnhover1");
 			$(".ac-ln-menu a").css("color", "white");
@@ -63,7 +63,7 @@ $(function() {
 		var text2 = $(".video-text1")[0];
 		var vedio2 = $(".vedioMP4-4");
 		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7900 && scrollTop < 8280) {
+		if(scrollTop >= 7550 && scrollTop < 7900) {
 			text2.style.animation = "move1 1s";
 			text2.style.top = -50 + "px";
 			var imgbtn = playbtn2.children()[0];
@@ -80,7 +80,7 @@ $(function() {
 				}
 				btnclick(playbtn2);
 			}
-		} else if(scrollTop < 7900 || scrollTop >= 8280) {
+		} else if(scrollTop < 7350 || scrollTop >= 7900) {
 			text2.style.animation = "move2 0.7s";
 			text2.style.top = 80 + "px";
 			if(text2.style.top == 80 + "px") {
@@ -94,7 +94,7 @@ $(function() {
 		var text3 = $(".video-text2")[0];
 		var vedio3 = $(".videoMP4-5");
 		var playbtn3 = $(".vedio-btn2");
-		if(scrollTop >= 10950 && scrollTop < 11600) {
+		if(scrollTop >=9900 && scrollTop < 10300) {
 			text3.style.animation = "move1 1s";
 			text3.style.top = -50 + "px";
 			var imgbtn = playbtn3.children()[0];
@@ -111,7 +111,7 @@ $(function() {
 				}
 				btnclick(playbtn3);
 			}
-		} else if(scrollTop < 10950 || scrollTop >= 11600) {
+		} else if(scrollTop < 9400 || scrollTop >= 10300) {
 			text3.style.animation = "move2 0.7s";
 			text3.style.top = 80 + "px";
 			if(text3.style.top == 80 + "px") {
@@ -179,5 +179,6 @@ $(function() {
 		if(a>2){
 			a=0;
 		}
-	},5000);
+	},3000);
+	
 })

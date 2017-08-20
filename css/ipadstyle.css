@@ -145,7 +145,7 @@
 
 .slide1 {
 	background-color: #000;
-	background-image: url(../img/ipad-img/display_slide_1_top_large.png),url(../img/ipad-img/display_slide_1_large.jpg);
+	background-image: url(../img/ipadImg/display_slide_1_top_large.png),url(../img/ipadImg/display_slide_1_large.jpg);
 	background-repeat: no-repeat;
 	background-size:626px 786px;
 	background-position: 180px,300px,100px,100px;
@@ -155,14 +155,14 @@
 
 
 .slide2 {
-	background: #000 url(../img/ipad-img/display_slide_3_large.jpg) no-repeat center 50%;
+	background: #000 url(../img/ipadImg/display_slide_3_large.jpg) no-repeat center 50%;
 	background-size: 868px 946px ;
 }
 
 
 
 .slide3 {
-	background: #000 url(../img/ipad-img/display_slide_4_large.jpg) no-repeat center 50%;
+	background: #000 url(../img/ipadImg/display_slide_4_large.jpg) no-repeat center 50%;
 	background-size:868px 946px;
 }
 
