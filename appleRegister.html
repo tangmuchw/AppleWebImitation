@@ -474,8 +474,8 @@
 						<div class="flow-section">
 							<div class="section-wrapper">
 								<div class="row-full-name">
-									<input type="text" id="name-last" class="name-last borderStyle marginBottom14 positionRe" name="name-last" placeholder="姓氏"/>
-									<label id="name-last-error"  for="name-last">请输入姓氏</label>
+									<input type="text" id="name-last" class="name-last borderStyle marginBottom14 positionRe" name="name-last" placeholder="姓氏" />
+									<label id="name-last-error" for="name-last">请输入姓氏</label>
 									<input type="text" id="name-first" class="name-first borderStyle marginBottom14 positionRe" name="name-first" placeholder="名字" />
 									<label id="name-first-error" for="name-first">请输入名字</label>
 								</div>
@@ -499,29 +499,30 @@
 									</select>
 								</div>
 								<div class="row-birthday">
-									<input type="text" id="birthday" class="borderStyle textShape" name="birthday" placeholder="出生日期"/>
+									<input type="text" id="birthday" class="borderStyle textShape" name="birthday" placeholder="出生日期" />
 									<label id="birthday-error" for="birthday">输入有效出生日期</label>
-									<div class=""></div>
+									<div class="birthday-warn">?</div>
+									<div class="birthday-warn-content">出生日期会帮助验证您的身份或启用特定<br />Apple&nbsp;服务。</div>
+
 								</div>
 							</div>
 						</div>
 						<div class="flow-section">
 							<div class="section-wrapper">
 								<div class="row-email">
-									<input name="reg-email" id="reg-email" class="borderStyle textShape" type="email" value="" placeholder="name@example.com"/>
+									<input name="reg-email" id="reg-email" class="borderStyle textShape" type="email" value="" placeholder="name@example.com" />
 									<label id="reg-email-error2" for="reg-email">请输入邮箱</label>
 									<div class="newEmail-tips marginBottom14">
 										这将是您的新Apple&nbsp;ID。
 									</div>
 								</div>
-								<div class="row-country marginBottom14">
+								<div class="row-pwd marginBottom14">
 									<input type="password" id="pwd" class="borderStyle textShape" name="pwd" value="" placeholder="密码" />
 									<label id="pwd-error" for="pwd">请输入密码</label>
 								</div>
-								<div class="row-birthday positionRe">
-									<input type="password" id="comfirmPwd" class="borderStyle textShape" name="comfirmPwd" placeholder="确认密码"/>
-									<label id="comfirmPwd-error" for="comfirmPwd">请再次输入密码</label>
-									
+								<div class="row-comfirmPwd">
+									<input type="password" id="comfirmPwd" class="borderStyle textShape" name="comfirmPwd" placeholder="确认密码" />
+									<label id="comfirmPwd-error" for="comfirmPwd">确认您的密码</label>
 								</div>
 
 							</div>
@@ -534,9 +535,12 @@
 										<option value="你少年时代最好的朋友叫什么">你少年时代最好的朋友叫什么名字？</option>
 										<option value="你的第一个宠物叫什么名字">你的第一个宠物叫什么名字？</option>
 									</select>
+									<label id="question01-error" for="question01">选择一个问题</label>
 								</div>
 								<div class="row-answers marginBottom14">
 									<input type="text" id="answer01" class="borderStyle textShape" name="answer01" placeholder="答案" />
+									<label id="answer01-error" for="answer01">输入答案</label>
+
 								</div>
 								<div class="row-questiones marginBottom14">
 									<select name="question02" id="question02" class="borderStyle">
@@ -544,9 +548,13 @@
 										<option value="你的理想工作是什么">你的理想工作是什么?</option>
 										<option value="你小时候最喜欢的一本书是什么">你小时候最喜欢的一本书是什么?</option>
 									</select>
+									<label id="question02-error" for="question02">选择一个问题</label>
+
 								</div>
 								<div class="row-answers marginBottom14">
 									<input type="text" id="answer02" class="borderStyle textShape" name="answer02" placeholder="答案" />
+									<label id="answer02-error" for="answer02">输入答案</label>
+
 								</div>
 								<div class="row-questiones marginBottom14">
 									<select name="question03" id="question03" class="borderStyle">
@@ -554,9 +562,13 @@
 										<option value="你的父母是在哪里认识的">你的父母是在哪里认识的?</option>
 										<option value="你的第一个上司叫什么名字">你的第一个上司叫什么名字?</option>
 									</select>
+									<label id="question03-error" for="question03">选择一个问题</label>
+
 								</div>
 								<div class="row-answers marginBottom14">
 									<input type="text" id="answer03" class="borderStyle textShape" name="answer03" placeholder="答案" />
+									<label id="answer03-error" for="answer03">输入答案</label>
+
 								</div>
 							</div>
 						</div>
@@ -566,7 +578,7 @@
 									<div class="checkbox-wrapper">
 										<input type="checkbox" name="news" id="news" value="" class="chkBoxInput" />
 										<!--label标签用于Click事件和要定义的复选框的方框样式-->
-										<label for="news"></label>
+										<label for="news" id="news-label"></label>
 									</div>
 									<div class="update-list">
 										<div class="update-list-title">公告</div>
@@ -578,7 +590,7 @@
 								<div class="row-update marginBottom14">
 									<div class="checkbox-wrapper">
 										<input type="checkbox" name="itunes" id="itunes" value="" class="chkBoxInput" />
-										<label for="itunes"></label>
+										<label for="itunes" id="itunes-label"></label>
 									</div>
 									<div class="update-list">
 										<div class="update-list-title">Apple Music、新 App及更多内容。</div>
