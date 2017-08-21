@@ -135,7 +135,7 @@
 /*内容样式*/
 
 .slide1 {
-	background: #000 url(../img/indexImg/iphone_7_large.jpg) no-repeat 50% 10%;
+	background: #000 url(../img/indexImg/carousel/iphone_large.jpg) no-repeat 50% 10%;
 	background-size: auto 100%;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .slide2 {
-	background: #f3f3f3 url(img/indexImg/carousel/watch_alt_large.jpg) no-repeat center 50%;
+	background: #f3f3f3 url(../img/indexImg/carousel/watch_alt_large.jpg) no-repeat center 50%;
 	background-size: auto 100%;
 }
 
