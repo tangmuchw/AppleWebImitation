@@ -1,3 +1,7 @@
+body{
+	width: 100%;
+	height: 4918px;
+}
 .section-hero-content {
 	width: 100%;
 }
@@ -214,10 +218,12 @@
 	overflow: hidden;
 	display: none;
 }
-.text1{
-    width: 100%;
-    height: 567px;	
+
+.text1 {
+	width: 100%;
+	height: 567px;
 }
+
 .text1>img {
 	width: 100%;
 	height: 567px;
@@ -237,4 +243,117 @@
 	z-index: 100;
 	left: 145px;
 	top: -350px;
+}
+
+
+
+
+
+
+/*尾部开始*/
+
+#apple-footer {
+	width: 100%;
+	background-color: #F2F2F2;
+	color: #85857D;
+	overflow: hidden;
+	font-size: 12px;
+	padding-bottom: 20px;
+	position: relative;
+	top: -100px;
+}
+
+.as-globalfooter-content {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.as-globalfooter-warm-tips {
+	padding: 17px 0px 11px 0px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.as-globalfooter-title {
+	width: 980px;
+	height: 40px;
+	line-height: 40px;
+	/*background: url(../img/footerImg/appleblack.png) left center no-repeat;*/
+	/*background-size: 15px;*/
+	text-indent: 20px;
+}
+
+.as-globalfooter-directory-column {
+	width: 196px;
+	float: left;
+}
+
+.directory-column-education,
+.directory-column-account {
+	margin-bottom: 30px;
+}
+
+.as-globalfooter-directory-column-title {
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.as-globalfooter-directory-column-item {
+	line-height: 22px;
+}
+
+.as-globalfooter-directory-column-link {
+	color: #85857D;
+}
+
+.as-globalfooter-mini-shop {
+	margin-top: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.as-globalfooter-mini-shop-link {
+	color: #579EDD;
+}
+
+.as-globalfooter-mini-shop-link:hover {
+	text-decoration: underline;
+}
+
+.as-globalfooter-mini-legal {
+	line-height: 30px;
+}
+
+.copy-desc {
+	float: left;
+	margin-right: 30px;
+}
+
+.as-globalfooter-mini-legal-column-item {
+	float: left;
+	margin-right: 10px;
+}
+
+.as-globalfooter-mini-locale-flag {
+	float: right;
+	display: block;
+	width: 50px;
+	background: url(../img/footerImg/country-icon-cn.png) left center no-repeat;
+	text-indent: 20px;
+}
+
+.police-desc-link {
+	color: #85857D;
+}
+
+.as-globalfooter-mini-locale-flag-link,
+.mini-legal-column-item-link {
+	color: #555555;
+}
+
+.as-globalfooter-mini-locale-flag-link:hover,
+.mini-legal-column-item-link:hover,
+.police-desc-link:hover,
+.as-globalfooter-directory-column-link:hover {
+	text-decoration: underline;
 }
