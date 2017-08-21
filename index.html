@@ -10,6 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="css/carouselStyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
 		<link rel="shortcut icon" href="img/indexImg/apple.ico" />
+		<link rel="stylesheet" href="css/idangerous.swiper.css">
+		<link rel="stylesheet" href="css/slideStyle.css">
 	</head>
 
 	<body>
@@ -439,11 +441,43 @@
 		<div style="clear: both;"></div>
 		<!--头部结束-->
 		<!--logo页面content开始-->
-		<div class="home-content">
+		<div id="home-content">
 			<!--商品轮播开始-->
 			<div id="goods-carousel">
 				<div class="goods-carousel-wrapper">
-					<img src="img/indexImg/iphone_7_large.jpg"/>
+					<div class="apple-banner">
+						<div class="swiper-container">
+							<a class="arrow-left" href="#"><span></span></a>
+							<a class="arrow-right" href="#"><span></span></a>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide slide1">
+									<div class="title txt">
+										iPhone
+										<br> 7 在此
+									</div>
+								</div>
+								<div class="swiper-slide slide2">
+									<div class="title txt">
+										<img src="img/indexImg/carousel/logo_watch_large.png">
+									</div>
+									<h2 class="homepage-headline txt">Series 2 新登场。</h2>
+								</div>
+								<div class="swiper-slide slide3">
+									<div class="title txt">
+										<img src="img/indexImg/carousel/logo_macbookpro_large.png">
+										<p>
+											一身才华，一触即发
+										</p>
+									</div>
+								</div>
+							</div>
+							<ul class="pagination autoplay">
+								<li><span><i></i></span></li>
+								<li><span><i></i></span></li>
+								<li><span><i></i></span></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!--商品轮播结束-->
@@ -452,16 +486,16 @@
 				<div class="sub-goods-display-wrapper">
 					<ul class="sub-goods-list">
 						<li class="sub-goods-item">
-							<a href="appleSkill.html"><img src="img/indexImg/hey_siri_large.jpg" class="sub-goods-item-image"/></a>
+							<a href="appleSkill.html"><img src="img/indexImg/hey_siri_large.jpg" class="sub-goods-item-image" /></a>
 						</li>
 						<li class="sub-goods-item">
-							<a href="#"><img src="img/indexImg/imac_large.jpg" class="sub-goods-item-image"/></a>
+							<a href="#"><img src="img/indexImg/imac_large.jpg" class="sub-goods-item-image" /></a>
 						</li>
 						<li class="sub-goods-item">
-							<a href="summerColorMatching.html"><img src="img/indexImg/summer_formal_large.jpg" class="sub-goods-item-image"/></a>
+							<a href="summerColorMatching.html"><img src="img/indexImg/summer_formal_large.jpg" class="sub-goods-item-image" /></a>
 						</li>
 						<li class="delMaginRight sub-goods-item">
-							<a href="#"><img src="img/indexImg/iphone_upgrade_large.png" class="sub-goods-item-image"/></a>
+							<a href="#"><img src="img/indexImg/iphone_upgrade_large.png" class="sub-goods-item-image" /></a>
 						</li>
 					</ul>
 				</div>
@@ -486,6 +520,9 @@
 		</script>
 		<script type="text/javascript" src="js/idangerous.swiper.progress.min.js">
 		</script>
+		<script src="js/idangerous.swiper.min.js"></script>
+		<script src="js/idangerous.swiper.progress.min.js"></script>
+		<script src="js/apple.js"></script>
 
 	</body>
 

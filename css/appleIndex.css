@@ -1,13 +1,14 @@
-.main {
+#home-content {
 	width: 100%;
 }
 
 
 /*商品轮播开始*/
-
-#goods-carousel img {
+#home-content{
 	width: 100%;
-	height: 540px;
+}
+.goods-carousel-wrapper{
+	width: 100%;
 }
 
 
