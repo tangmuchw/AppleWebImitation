@@ -451,3 +451,6 @@
 	top: 66px;
 	margin-left: -7px;
 }
+#reg-email-error2,#pwd-error,#comfirmPwd-error{
+	display: none;
+}
