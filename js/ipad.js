@@ -1,7 +1,6 @@
 $(function() {
 	$(document).scroll(function() {
 		var scrollTop = $(document).scrollTop();
-				console.log(scrollTop);
 		var scroll = $(".ac-ln");
 		var border = $(".ac-ln-content");
 		var text1 = $(".video-text")[0];
@@ -63,7 +62,7 @@ $(function() {
 		var text2 = $(".video-text1")[0];
 		var vedio2 = $(".vedioMP4-4");
 		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7550 && scrollTop < 7900) {
+		if(scrollTop >= 7600 && scrollTop < 7900) {
 			text2.style.animation = "move1 1s";
 			text2.style.top = -50 + "px";
 			var imgbtn = playbtn2.children()[0];
@@ -80,7 +79,7 @@ $(function() {
 				}
 				btnclick(playbtn2);
 			}
-		} else if(scrollTop < 7350 || scrollTop >= 7900) {
+		} else if(scrollTop < 7050 || scrollTop >= 7900) {
 			text2.style.animation = "move2 0.7s";
 			text2.style.top = 80 + "px";
 			if(text2.style.top == 80 + "px") {
@@ -181,4 +180,4 @@ $(function() {
 		}
 	},3000);
 	
-})
+});
