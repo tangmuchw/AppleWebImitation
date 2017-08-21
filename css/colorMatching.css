@@ -257,9 +257,11 @@
             }
             .as-producttile-img {
             	margin-bottom: 25px;
+                cursor: pointer;
+            }
+            .as-producttile-img img{
             	cursor: pointer;
             }
-            
             .as-producttile-arrow {
             	width: 325px;
             	height: 98px;

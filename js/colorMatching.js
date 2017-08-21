@@ -1,4 +1,13 @@
 $(function() {
+	$(".globalNav-item-list a").click(function(e){
+		e.preventDefault();
+	});
+	$(".localnav-header a").click(function(e){
+		e.preventDefault();
+	});
+	$(".search-filter-contentitem").on("click",".as-producttile-img",function(){
+		location.href="productDetail.html";
+	})
 	$(".disclosure-text").click(function() {
 		if($(".localnav-tray").css("display") == "none") {
 			$(".localnav-tray").slideDown(1000);
