@@ -157,9 +157,10 @@ $(function() {
 		}
 	}).focusout(function() {
 		$("#answer01-error").fadeOut();
+		$("#question01-error").fadeOut();
 
 	});
-	
+
 	$("#answer02").focus(function() {
 		var question02 = $("#question02").val();
 		//		var newQuestion = $("#question01").val();
@@ -177,6 +178,7 @@ $(function() {
 		}
 	}).focusout(function() {
 		$("#answer02-error").fadeOut();
+		$("#question02-error").fadeOut();
 
 	});
 
@@ -197,6 +199,7 @@ $(function() {
 		}
 	}).focusout(function() {
 		$("#answer01-error").fadeOut();
+		$("#question03-error").fadeOut();
 
 	});
 
