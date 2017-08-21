@@ -2,12 +2,15 @@
 	width: 100%;
 	margin: 0px auto;
 }
-.fr{
+
+.fr {
 	float: right;
 }
-.fl{
+
+.fl {
 	float: left;
 }
+
 .shopHeader {
 	width: 100%;
 	height: 52px;
@@ -22,12 +25,12 @@
 }
 
 .iMac-shop-left {
-	float: left;
+	/*float: left;*/
 	font-size: 24px;
 }
 
 .iMac-shop-right {
-	float: right;
+	/*float: right;*/
 	position: relative;
 	left: 15px;
 }
@@ -41,11 +44,6 @@
 .iMac-shop-right a {
 	color: black;
 }
-
-
-/*.iMac-shop-right .iMac-shop-right-1{
-	color: #858585;
-}*/
 
 .iMac-shop-right .iMac-shop-right-2 {
 	color: white;
@@ -68,10 +66,9 @@
 }
 
 .iMac-main1 {
-	width: 980px;
+	margin-left: 269.6px;
+	margin-right: 269.6px;
 	height: 126.4px;
-	margin: 0px auto;
-	/*border: 1px solid;*/
 	text-align: center;
 }
 
@@ -110,7 +107,7 @@
 	width: 651px;
 	height: 782px;
 	position: absolute;
-	left: 448px;
+	left: 428px;
 }
 
 .iMac-Adv1 {
@@ -162,7 +159,7 @@
 }
 
 .iMac-main2 {
-	width: 1400px;
+	width: 100%;
 	height: 1702px;
 	padding-top: 130px;
 	margin: 0px auto;
@@ -196,10 +193,11 @@
 }
 
 .iMac-image-wrapper2 {
-	width: 1400px;
+	width: 100%;
 	height: 1470px;
 	margin-top: 20px;
 	margin: 0px auto;
+	background-size: contain;
 	/*border: 1px solid black;*/
 	background: url(../img/appleIMac/performance_large.jpg) center center no-repeat;
 }
@@ -260,44 +258,60 @@
 
 .iMac-container4 {
 	width: 100%;
-	height: 1088.8px;
+	height: 800px;
 }
 
 .iMac-main4 {
-	width: 1400px;
-	height: 1088.8px;
-	margin: 0px auto;
+	margin-left: 59.6px;
+	margin-right: 59.6px;
+	height: 800px;
+	/*margin: 0px auto;*/
 }
 
 .iMac-main4-box {
-	width: 1370px;
+	width: 100%;
 	padding: 25px;
 }
 
 .iMac-main4-left {
-	width: 402px;
-	height: 780px;
-	padding: 134px 134px;
+	width: 49.1%;
+	height: 800px;
+	margin-right: 5px;
+	/*padding: 134px 134px;*/
 	background-color: #FAFAFA;
 }
 
 .iMac-main4-left-1 {
 	width: 403px;
 	height: 781px;
+	/*margin: 134px;*/
+	margin: 0px auto;
+	margin-top: 90px;
 }
 
 .iMac-main4-right {
-	width: 406px;
-	height: 780.8px;
-	padding: 134px 134px;
-	background: url(../img/appleIMac/think_fast_large.jpg) center center no-repeat;
+	width: 49.1%;
+	height: 800px;
+	margin-left: 5px;
+	/*background-size: 100% 100%;*/
 	background-color: #FAFAFA;
+}
+
+.iMac-main4-right-1 {
+	width: 350px;
+	height: 795px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: contain;
+	margin: 0px auto;
+	background-image: url(../img/appleIMac/think_fast_large.jpg);
 }
 
 .iMac-main4-left-1-headline {
 	width: 403px;
 	height: 40px;
-	border-collapse: separate;
+	/*border-collapse: separate;*/
 	font-size: 30px;
 	font-weight: 600;
 }
@@ -317,26 +331,29 @@
 .iMac-container5 {
 	width: 100%;
 	height: 740px;
+	margin-top: 57px;
 }
 
 .iMac-main5 {
-	width: 1400px;
+	margin-left: 59.6px;
+	margin-right: 59.6px;
 	height: 744.8px;
 	margin-top: -20px;
 	margin-bottom: -260px;
-	margin: 0px auto;
+	/*margin: 0px auto;*/
 }
 
 .iMac-main5-box {
-	width: 1370px;
+	width: 100%;
 	height: 705px;
 	padding: 10px 25px;
 }
 
 .iMac-main5-left {
-	width: 402px;
-	height: 466.75px;
-	padding: 134px;
+	width: 49.1%;
+	height: 638.75px;
+	/*padding: 134px;*/
+	margin-right: 5px;
 	background-color: #FAFAFA;
 }
 
@@ -346,6 +363,12 @@
 	border-collapse: separate;
 	font-size: 30px;
 	font-weight: 600;
+}
+
+.iMac-main5-left-1 {
+	width: 403px;
+	margin: 0px auto;
+	margin-top: 90px;
 }
 
 .iMac-main5-left-1 p {
@@ -369,10 +392,17 @@
 }
 
 .iMac-main5-right {
-	width: 406px;
-	height: 466.75px;
-	padding: 134px;
+	width: 49.1%;
+	height: 638.75px;
+	/*padding: 134px;*/
+	margin-left: 5px;
 	background-color: #FAFAFA;
+}
+
+.iMac-main5-right-1 {
+	width: 403px;
+	margin: 0px auto;
+	margin-top: 90px;
 }
 
 .mimi-ruler {
@@ -453,6 +483,8 @@
 .iMac-container6 {
 	width: 100%;
 	height: 1100px;
+	position: relative;
+	z-index: -2000;
 }
 
 .iMac-main6 {
@@ -523,6 +555,7 @@
 /*第七部分开始*/
 
 .iMac-container7 {
+	overflow: hidden;
 	width: 100%;
 	height: 1700px;
 	padding-bottom: 130px;
@@ -586,28 +619,29 @@
 
 .iMac-container9 {
 	width: 100%;
-	height: 768px;
+	height: 728px;
 	padding-bottom: 130px;
 }
 
 .iMac-main9 {
-	width: 1400px;
-	height: 768px;
+	width: 100%;
+	height: 728px;
 	margin-top: -20px;
 	margin-bottom: -260px;
 	margin: 0px auto;
 }
 
 .iMac-main9-box {
-	width: 1370px;
-	height: 460px;
-	padding: 10px 25px;
+	width: 100%;
+	height: 728px;
+	padding: 10px 0;
 }
 
 .iMac-main9-left {
-	width: 402px;
-	height: 460px;
-	padding: 134px;
+	width: 49.1%;
+	height: 728px;
+	margin-right: 5px;
+	/*padding: 134px;*/
 	background-color: #FAFAFA;
 }
 
@@ -620,9 +654,14 @@
 }
 
 .iMac-main9-left-1 {
-	/*width: 466px;
+	width: 466px;
 	height: 561px;
-	background: url(../img/appleIMac/retina_display_large.jpg) center center no-repeat;*/
+	margin: 0px auto;
+	margin-top: 90px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: contain;
+	background-image: url(../img/appleIMac/retina_display_large.jpg);
 }
 
 .iMac-main9-right-1-headline {
@@ -640,9 +679,10 @@
 }
 
 .iMac-main9-right {
-	width: 406px;
-	height: 460px;
-	padding: 134px;
+	width: 49.0%;
+	height: 728px;
+	margin-left: 5px;
+	/*padding: 134px;*/
 	background-color: #FAFAFA;
 }
 
@@ -728,25 +768,35 @@
 }
 
 .iMac-main10 {
+	overflow: hidden;
 	width: 100%;
 	height: 1453px;
 	padding: 130px 0px;
+	margin-top: -100px;
 	background-color: #FAFAFA;
 }
 
 .iMac-main10-box {
-	width: 1400px;
+	width: 100%;
 	height: 1453px;
 	padding-bottom: 90px;
 	margin: 0px auto;
 }
 
 .iMac-main10-wrapper {
-	width: 1497px;
+	width: 100%px;
 	height: 1171px;
 	margin-left: 66px;
 	margin-top: 70px;
-	background: url(../img/appleIMac/connectivity_large.jpg) center center no-repeat;
+}
+
+.iMac-main10-wrapper-image {
+	width: 1479px;
+	height: 1171px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: contain;
+	background: url(../img/appleIMac/connectivity_large.jpg);
 }
 
 
@@ -756,8 +806,9 @@
 /*第十一部分开始*/
 
 .iMac-container11 {
+	overflow: hidden;
 	width: 100%;
-	height: 1549px;
+	height: 1700px;
 	margin-bottom: 1px;
 }
 
@@ -807,24 +858,25 @@
 }
 
 .iMac-main11 {
-	width: 1400px;
-	height: 768px;
+	width: 100%;
+	height: 439px;
 	margin-top: -20px;
 	margin-bottom: -260px;
 	margin: 0px auto;
 }
 
 .iMac-main11-box {
-	width: 1370px;
-	height: 460px;
+	width: 100%;
+	height: 439px;
 	padding: 10px 20px;
 	margin-top: 15px;
 }
 
 .iMac-main11-left {
-	width: 402px;
-	height: 247px;
-	padding: 134px;
+	width: 49.1%;
+	height: 439px;
+	/*padding: 134px;*/
+	margin-right: 5px;
 	background-color: #FAFAFA;
 }
 
@@ -841,7 +893,12 @@
 	height: 277px;
 	margin-left: -105px;
 	/*border: 1px solid black;*/
-	background: url(../img/appleIMac/connectivity_resolution_large.jpg) center center no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: contain;
+	margin: 0px auto;
+	margin-top: 80px;
+	background-image: url(../img/appleIMac/connectivity_resolution_large.jpg);
 }
 
 .iMac-main11-right-1-headline {
@@ -851,6 +908,13 @@
 	font-size: 30px;
 	font-weight: 600;
 }
+.iMac-main11-right-1{
+	width: 403px;
+	height: 439px;
+	margin: 0px auto;
+	margin-top: 90px;
+}
+
 
 .iMac-main11-right-1 p {
 	/*margin-top: 17.5px;*/
@@ -859,11 +923,12 @@
 }
 
 .iMac-main11-right {
-	width: 400px;
-	height: 247px;
-	padding: 134px;
+	width: 49.1%;
+	height: 439px;
+	/*padding: 134px;*/
 	position: relative;
 	left: -10px;
+	margin-left: 5px;
 	background-color: #FAFAFA;
 }
 
@@ -929,10 +994,11 @@
 /*第十二部分开始*/
 
 .iMac-container12 {
+	overflow: hidden;
 	width: 100%;
 	height: 2603px;
 	padding-top: 130px;
-	margin-top: 260px;
+	/*margin-top: 260px;*/
 }
 
 .iMac-main12 {
@@ -1077,6 +1143,7 @@
 /*第十三部分开始*/
 
 .iMac-container13 {
+	overflow: hidden;
 	width: 100%;
 	height: 1431.65px;
 	padding: 130px 0px;
@@ -1222,6 +1289,7 @@
 /*第十四部分开始*/
 
 .iMac-container14 {
+	overflow: hidden;
 	width: 100%;
 	height: 1205.15px;
 	padding: 130px 0px;
@@ -1396,13 +1464,15 @@
 	text-align: center;
 	display: block;
 }
-.buystrip-info-icon{
+
+.buystrip-info-icon {
 	width: 74px;
 	height: 74px;
 	margin: 0px 71px;
 	/*background: url(../img/appleIMac/icon_large.svg) center center no-repeat;*/
 }
-.buystrip-info-title{
+
+.buystrip-info-title {
 	width: 216px;
 	height: 24px;
 	font-size: 19px;
@@ -1410,7 +1480,8 @@
 	color: #000000;
 	margin-top: 2.375px;
 }
-.buystrip-info-copy{
+
+.buystrip-info-copy {
 	width: 216px;
 	height: 20.8px;
 	line-height: 24px;
@@ -1420,17 +1491,19 @@
 	/*margin-bottom: 10px;*/
 }
 
-.buystrip-info-cta{
+.buystrip-info-cta {
 	width: 216px;
 	height: 20.8px;
 	display: block;
 	color: #0070C9;
 	margin-top: 11px;
 }
-.buystrip-info-cta:hover{
+
+.buystrip-info-cta:hover {
 	text-decoration: underline;
 }
-.sosumi{
+
+.sosumi {
 	width: 980px;
 	height: 335px;
 	margin: 0px auto;
@@ -1439,11 +1512,13 @@
 	border-bottom: 1px solid #D6D6D6;
 	color: #888B95;
 }
-.sosumi ol{
+
+.sosumi ol {
 	width: 946px;
 	height: 280px;
 	font-size: 11px;
 	line-height: 18px;
 }
+
 
 /*尾部结束*/
