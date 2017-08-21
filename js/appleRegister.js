@@ -159,20 +159,39 @@ $(function() {
 		$("#answer01-error").fadeOut();
 
 	});
-
 	
 	$("#answer02").focus(function() {
-		var question02 = $("#question01").val();
+		var question02 = $("#question02").val();
 		//		var newQuestion = $("#question01").val();
-		if(question02 == "安全提示问题1") {
+		if(question02 == "安全提示问题2") {
 			$("#question02-error").fadeIn();
 			//			console.log(question01);
 
 		} else {
 			//			console.log("new" + question01);
-			if(answer01 == "" && question01 != "安全提示问题1") {
-				$("#question01-error").fadeOut();
-				$("#answer01-error").fadeIn();
+			if(answer02 == "" && question02 != "安全提示问题1") {
+				$("#question02-error").fadeOut();
+				$("#answer02-error").fadeIn();
+			}
+
+		}
+	}).focusout(function() {
+		$("#answer02-error").fadeOut();
+
+	});
+
+	$("#answer03").focus(function() {
+		var question03 = $("#question03").val();
+		//		var newQuestion = $("#question01").val();
+		if(question03 == "安全提示问题3") {
+			$("#question03-error").fadeIn();
+			//			console.log(question01);
+
+		} else {
+			//			console.log("new" + question01);
+			if(answer03 == "" && question03 != "安全提示问题3") {
+				$("#question03-error").fadeOut();
+				$("#answer03-error").fadeIn();
 			}
 
 		}
