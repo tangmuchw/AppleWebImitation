@@ -67,9 +67,11 @@ body,
 	width: 100%;
 	height: 100%;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
 	position: relative;
 }
+
 html {
 	font: 12px/1.5 "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -89,22 +91,28 @@ a {
 }
 
 .slide1 {
+
+	background-size: 100% 100%;
 	background-image: url(../img/appleMusic/hero_bg1_large.jpg);
 }
 
 .slide2 {
+	background-size: 100% 100%;
 	background-image: url(../img/appleMusic/hero_bg2_large.jpg);
 }
 
 .slide3 {
+	background-size: 100% 100%;
 	background-image: url(../img/appleMusic/hero_bg3_large.jpg);
 }
 
 .slide4 {
+	background-size: 100% 100%;
 	background-image: url(../img/appleMusic/hero_bg4_large.jpg);
 }
 
 .slide5 {
+	background-size: 100% 100%;
 	background-image: url(../img/appleMusic/hero_bg5_large.jpg);
 }
 

@@ -1,0 +1,560 @@
+#main {
+	width: 100%;
+}
+
+.section-hero {
+	width: 100%;
+	position: relative;
+}
+
+.image-hero-activity-tings {
+	width: 100%;
+	height: 1225px;
+	background-size: 2560px 1225px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-image: url(../img/appleWatch/hero_activity_rings_large.jpg);
+}
+
+.text-block {
+	width: 100%;
+	height: 122.887px;
+	position: absolute;
+	top: 180px;
+}
+
+.logo-model {
+	width: 100%;
+	height: 71px;
+	margin-bottom: 19.89px;
+}
+
+.series-2-logo {
+	width: 100%;
+	height: 71px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 184px 71px;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/logo_watch_series_2_large.png);
+}
+
+.typography-intro {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #0070C9;
+}
+
+.more {
+	font-size: 20px;
+	font-weight: 300;
+	margin-right: 20px;
+	position: relative;
+	left: 20px;
+}
+
+.more:hover {
+	text-decoration: underline;
+}
+
+.section-models {
+	margin-top: 50px;
+	/*margin-bottom: 50px;*/
+	width: 100%;
+	height: 3065px;
+	position: relative;
+	/*padding-left: 84.6px;
+	padding-right: 84.6px;*/
+}
+
+.pane-nike {
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 700px;
+}
+
+.hardware-frame {
+	width: 100%;
+	height: 100%;
+}
+
+.image-nike-alt {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/appleWatch/nike_alt_large.jpg);
+}
+
+.text-block1 {
+	width: 100%;
+	height: 98px;
+	position: absolute;
+	top: 66px;
+	left: 0px;
+}
+
+.image-logo-nike {
+	width: 100%;
+	height: 47px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 223px 47px;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/logo_watch_nike_large.png);
+}
+
+.logo-model1 {
+	width: 100%;
+	height: 47px;
+	margin-bottom: 19.89px;
+}
+
+.row {
+	margin-top: 50px;
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 950px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.pane-hermes {
+	width: 48.1%;
+	height: 900px;
+	margin-right: 15px;
+	/*padding-right: 25px;*/
+	position: relative;
+}
+
+.pane-edition {
+	width: 48.1%;
+	height: 900px;
+	margin-left: 15px;
+	/*padding-left: 25px;*/
+	position: relative;
+}
+
+.hardware-frame {
+	width: 100%;
+	height: 100%;
+}
+
+.image-hermes {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/appleWatch/hermes_large.jpg);
+}
+
+.image-edition {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/appleWatch/edition_large.jpg);
+}
+
+.text-block2 {
+	width: 100%;
+	height: 95.5px;
+	position: absolute;
+	top: 66px;
+	left: 0px;
+}
+
+.logo-model2 {
+	width: 100%;
+	height: 47px;
+	margin-bottom: 16.5px;
+}
+
+.image-logo-hermes {
+	width: 100%;
+	height: 47px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 276px 47px;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/logo_watch_hermes_large.png);
+}
+
+.text-block3 {
+	width: 100%;
+	height: 93.89px;
+	position: absolute;
+	top: 66px;
+	left: 0px;
+}
+
+.logo-model3 {
+	width: 100%;
+	height: 42px;
+	margin-bottom: 21px;
+}
+
+.image-logo-edition {
+	width: 100%;
+	height: 47px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 276px 47px;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/logo_watch_edition_large.png);
+}
+
+.pane-series-1 {
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 700px;
+	position: relative;
+	/*margin-top: 50px;*/
+}
+
+.image-series-1 {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/appleWatch/series_one_large.jpg);
+}
+
+.text-block4 {
+	width: 100%;
+	height: 82.6px;
+	position: absolute;
+	top: 68px;
+	left: 0px;
+}
+
+.logo-model4 {
+	width: 100%;
+	height: 44px;
+	margin-bottom: 21px;
+}
+
+.image-logo-series-1 {
+	width: 100%;
+	height: 44px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 117px 44px;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/logo_watch_series_1_large.png);
+}
+
+.pane-compare {
+	margin-top: 50px;
+	position: relative;
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 565px;
+	background-color: #F2F2F2;
+	position: relative;
+}
+
+.image-compare {
+	width: 100%;
+	height: 243px;
+	position: absolute;
+	top: 214px;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	/*background-size: 276px 47px;*/
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/compare_large.jpg);
+}
+
+.text-block5 {
+	width: 100%;
+	height: 84.75px;
+	position: absolute;
+	top: 68px;
+	left: 0px;
+}
+
+.typography-subsection-headline {
+	width: 100%;
+	height: 44px;
+	font-size: 32px;
+	font-weight: 500px;
+	text-align-last: center;
+}
+
+
+/*第一部分结束*/
+
+
+/*第二部分开始*/
+
+.section-wrapper {
+	width: 100%;
+	height: 268.7px;
+	position: relative;
+}
+
+.fp-section-content {
+	margin-left: 269.6px;
+	margin-right: 269.6px;
+	height: 100%;
+}
+
+.column1 {
+	width: 42%;
+	height: 244.8px;
+	position: relative;
+	left: -70px;
+}
+
+.column2 {
+	width: 42%;
+	height: 268.7px;
+	margin-left: 120px;
+}
+
+.fp-shopstrip-content {
+	width: 408.325px;
+	height: 158.1px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.ac-gf-buystrip-info-icon {
+	width: 74px;
+	height: 74px;
+	margin: 0px auto;
+	background-image: url(../img/appleWatch/icon_large.svg);
+}
+
+.ac-gf-buystrip-info-icon1 {
+	width: 48px;
+	height: 44px;
+	margin: 22px auto 13px auto;
+	background-repeat: no-repeat;
+	background-image: url(../img/appleWatch/pickup_icon_large.png);
+}
+
+.typography-shopstrip-copy {
+	margin-top: 10.5px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.more1:hover {
+	text-decoration: underline;
+}
+
+.section-page-links {
+	width: 100%;
+	height: 2670.810px;
+	position: relative;
+}
+
+.pane-bands {
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 810.4px;
+}
+
+.image-bands-refresh {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../img/appleWatch/bands_large.jpg);
+}
+
+.text-block6 {
+	width: 100%;
+	height: 76.84px;
+	position: absolute;
+	top: 833.6px;
+	left: 0px;
+}
+
+.width-constrait {
+	margin-top: 150px;
+	margin-left: 84.6px;
+	margin-right: 84.6px;
+	height: 886.938px;
+}
+.pane-gallery{
+	width: 48.1%;
+	height: 886.938px;
+	margin-right: 15px;
+	position: relative;
+}
+.pane-accessories{
+	width: 48.1%;
+	height: 886.938px;
+	margin-left: 15px;
+	position: relative;
+}
+.image-gallery{
+	width: 100%;
+	height: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-image: url(../img/appleWatch/gallery_large.jpg);
+}
+.image-accessories{
+	width: 100%;
+	height: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-image: url(../img/appleWatch/accessories_large.jpg);
+}
+.gallerycta{
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 32px;
+	text-decoration: underline;
+}
+.gallerycta1{
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 32px;
+	/*text-decoration: underline;*/
+}
+.gallerycta:hover{
+	text-decoration: underline;
+}
+.text-block7 {
+	width: 100%;
+	height: 76.84px;
+	position: absolute;
+	top: 913.6px;
+	left: 0px;
+}
+.pane-watchos{
+	width: 48.1%;
+	height: 886.938px;
+	margin-right: 15px;
+	position: relative;
+}
+.pane-films{
+	width: 48.1%;
+	height: 886.938px;
+	margin-left: 15px;
+	position: relative;
+}
+.image-watchos{
+	width: 100%;
+	height: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-image: url(../img/appleWatch/watchos_large.jpg);
+}
+.image-films{
+	width: 100%;
+	height: 100%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: 100% 100%;
+	background-image: url(../img/appleWatch/films_live_bright_large.jpg);
+}
+/*主体结束*/
+/*尾部开始*/
+#apple-footer {
+	margin-top: 150px;
+	width: 100%;
+	background-color: #F2F2F2;
+	color: #85857D;
+	overflow: hidden;
+	font-size: 11px;
+	/*padding-bottom: 20px;*/
+}
+
+.as-globalfooter-content {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.as-globalfooter-warm-tips {
+	padding: 17px 0px 11px 0px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.as-globalfooter-title {
+	width: 980px;
+	height: 40px;
+	line-height: 40px;
+	/*background: url(../img/footerImg/appleblack.png) left center no-repeat;*/
+	/*background-size: 15px;*/
+	text-indent: 20px;
+}
+
+.as-globalfooter-directory-column {
+	width: 196px;
+	float: left;
+}
+
+.directory-column-education,
+.directory-column-account {
+	margin-bottom: 30px;
+}
+
+.as-globalfooter-directory-column-title {
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+}
+.as-globalfooter-directory-column-item {
+	line-height: 22px;
+}
+
+.as-globalfooter-directory-column-link {
+	color: #85857D;
+}
+
+.as-globalfooter-mini-shop {
+	margin-top: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.as-globalfooter-mini-shop-link {
+	color: #579EDD;
+}
+
+.as-globalfooter-mini-shop-link:hover {
+	text-decoration: underline;
+}
+
+.as-globalfooter-mini-legal {
+	line-height: 30px;
+}
+
+.copy-desc {
+	float: left;
+	margin-right: 30px;
+}
+.as-globalfooter-mini-legal-column-item {
+	float: left;
+	margin-right: 10px;
+}
+
+.as-globalfooter-mini-locale-flag {
+	float: right;
+	display: block;
+	width: 50px;
+	background: url(../img/footerImg/country-icon-cn.png) left center no-repeat;
+	text-indent: 20px;
+}
+
+.police-desc-link {
+	color: #85857D;
+}
+
+.as-globalfooter-mini-locale-flag-link,
+.mini-legal-column-item-link {
+	color: #555555;
+}
+
+.as-globalfooter-mini-locale-flag-link:hover,
+.mini-legal-column-item-link:hover,
+.police-desc-link:hover,
+.as-globalfooter-directory-column-link:hover {
+	text-decoration: underline;
+}
