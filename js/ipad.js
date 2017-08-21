@@ -62,7 +62,7 @@ $(function() {
 		var text2 = $(".video-text1")[0];
 		var vedio2 = $(".vedioMP4-4");
 		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7600 && scrollTop < 7900) {
+		if(scrollTop >= 7600 && scrollTop < 8100) {
 			text2.style.animation = "move1 1s";
 			text2.style.top = -50 + "px";
 			var imgbtn = playbtn2.children()[0];
@@ -79,7 +79,7 @@ $(function() {
 				}
 				btnclick(playbtn2);
 			}
-		} else if(scrollTop < 7050 || scrollTop >= 7900) {
+		} else if(scrollTop < 7050 || scrollTop >= 8100) {
 			text2.style.animation = "move2 0.7s";
 			text2.style.top = 80 + "px";
 			if(text2.style.top == 80 + "px") {
@@ -110,7 +110,7 @@ $(function() {
 				}
 				btnclick(playbtn3);
 			}
-		} else if(scrollTop < 9400 || scrollTop >= 10300) {
+		} else if(scrollTop < 9300 || scrollTop >= 10300) {
 			text3.style.animation = "move2 0.7s";
 			text3.style.top = 80 + "px";
 			if(text3.style.top == 80 + "px") {
