@@ -102,7 +102,7 @@ $(function() {
 				"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
 				"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC"
 			},
-			data:'{"username":"'+regEmail+'"}'
+			data: '{"username":"' + regEmail + '"}'
 		}).then(function(data) {
 			console.log(data);
 
@@ -368,11 +368,17 @@ $(function() {
 				},
 				data: '{"realname":"' + username + '","lastname": "' + lastname + '","firstname": "' + firstname + '","homearea": "' + selectCountry + '","birthday": "' + birthday + '","username": "' + regEmail + '","password": "' + pwd + '","question01": "' + question01 + '","answer01": "' + answer01 + '","question02": "' + question02 + '","answer02": "' + answer02 + '","question03": "' + question03 + '","answer03": "' + answer03 + '"}'
 			}).then(function(data) {
-				console.log(data);
-				console.log("注册成功");
+				//				console.log(data);
+				//				console.log("注册成功");
+				$("#response-erro").html("注册成功！请等待跳转");
+				$(".spinner").css("display", "block");
+				setTimeout(function() {
+					location.href = 'appleNewLogin.html';
+				}, 3000);
 			}).then(function(er) {
 				var ret = errorAll.showError(er.responseText);
-				console.log(ret);
+				$("#response-erro").html(ret);
+				$(".spinner").css("display", "none");
 			});
 		}
 		return flag;

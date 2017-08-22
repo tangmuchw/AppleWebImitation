@@ -16,8 +16,7 @@ $(function() {
 			var accountID = $("#account-ID").val();
 			var accountPwd = $("#account-pwd").val();
 			setCookie(accountID, accountPwd, 24 * 3600);
-			console.log(getCookie(accountID));
-
+			//			console.log(getCookie(accountID));
 		}
 
 	});
@@ -43,13 +42,21 @@ $(function() {
 			},
 			data: '{"username":"' + accountID + '","password":"' + accountPwd + '"}',
 			success: function(data) {
-				console.log(data);
-				console.log("登录成功");
-				//				location.href = 'index.html';
+				//				console.log(data);
+				//				console.log("登录成功");
+				$("#response-erro").html("登录成功！请等待跳转");
+				$(".spinner").css("display", "block");
+				setTimeout(function() {
+					location.href = 'index.html';
+				}, 3000);
+
 			},
 			error: function(er) {
 				var ret = errorAll.showError(er.responseText);
-				console.log(ret);
+				//				console.log(ret);
+				$("#response-erro").html(ret);
+				$(".spinner").css("display", "none");
+
 			}
 		});
 	});

@@ -124,7 +124,7 @@
 }
 
 #name-first {
-	margin-left: 14px;
+	margin-left: 18px;
 }
 
 .selectCountry,
@@ -136,11 +136,12 @@
 	padding: 1px 28px 0px 15px;
 }
 
-.textShape {
+
+/*.textShape {
 	width: 428px;
 	height: 32px;
-	padding: 0px 15px;
-}
+	padding: 0px 16px;
+}*/
 
 .birthday-warn {
 	width: 18px;

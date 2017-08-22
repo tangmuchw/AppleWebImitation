@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="webfont/iconfont.css" />
 		<link rel="stylesheet" type="text/css" href="css/appleNewLogin.css" />
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/spinnerWait.css" />
 	</head>
 
 	<body>
@@ -473,7 +474,7 @@
 						</div>
 						<div class="signin-input">
 							<input type="password" name="account-pwd" id="account-pwd" class="account-pwd-input" value="" placeholder="密码" />
-							<div id="signin-btn" class="signin-btn"><i class="glyphicon glyphicon-circle-arrow-right"></i></div>
+							<div id="signin-btn" class="signin-btn" data-toggle="modal" data-target="#tipsModal"><i class="glyphicon glyphicon-circle-arrow-right"></i></div>
 						</div>
 						<div class="signin-remember-pwd">
 							<div class="signin-remember-me-chkbox">
@@ -524,6 +525,28 @@
 
 		</div>
 		<!--app内容结束-->
+		<!--提示模态框开始-->
+		<div id="tipsModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">提示信息:</h4>
+
+					</div>
+
+					<div class="modal-body">
+						<p id="response-erro"></p>
+						<div class="spinner">
+							<div class="bounce1"></div>
+							<div class="bounce2"></div>
+							<div class="bounce3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--提示模态框结束-->
 		<!--尾部开始-->
 		<div id="new-login-footer">
 			<div class="new-login-footer-wrapper">
@@ -560,12 +583,12 @@
 			</div>
 		</div>
 		<!--尾部结束-->
-
 		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
 		<script type="text/javascript" src="js/appleHeader.js"></script>
 		<script type="text/javascript" src="js/appleNewLogin.js"></script>
 		<script type="text/javascript" src="js/errorShow.js"></script>
 		<script type="text/javascript" src="js/setCookie.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
 	</body>
 

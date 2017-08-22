@@ -37,7 +37,7 @@
 }
 
 .globalNav-item-list {
-	width: 980px;
+	/*width: 980px;*/
 	height: 44px;
 	margin: 0px auto;
 	/*border: 1px solid #FFFFFF;*/
@@ -66,6 +66,7 @@
 
 .globalNav-item a:hover {
 	color: rgba(166, 166, 166, 1);
+	text-decoration: none;
 }
 
 .addbgImg {

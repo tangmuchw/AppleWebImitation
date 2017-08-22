@@ -22,7 +22,7 @@
 }
 
 .new-login-box {
-	position: absolute;
+	/*position: absolute;*/
 	width: 100%;
 	height: 100%;
 }
@@ -256,6 +256,31 @@
 
 .more-apps {
 	margin-bottom: 50px;
+}
+
+
+/*提示模态框开始*/
+
+.modal-content {
+	margin-top: 100px;
+}
+
+.modal-title {
+	line-height: 60px;
+}
+
+.modal-body {
+	overflow: hidden;
+}
+
+#response-erro {
+	float: left;
+}
+
+.spinner {
+	float: left;
+	display: none;
+	margin-left: 5px;
 }
 
 

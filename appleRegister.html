@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/appleHeader.css" />
 		<link rel="stylesheet" type="text/css" href="css/appleRegister.css" />
 		<link rel="stylesheet" type="text/css" href="css/appleFooter.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/spinnerWait.css" />
 		<link rel="shortcut icon" href="img/indexImg/apple.ico" />
 
 	</head>
@@ -473,9 +475,9 @@
 					<div class="flow-section">
 						<div class="section-wrapper">
 							<div class="row-full-name">
-								<input type="text" id="name-last" class="name-last borderStyle marginBottom14 positionRe" name="name-last" placeholder="姓氏" />
+								<input type="text" id="name-last" class="name-last borderStyle marginBottom14" name="name-last" placeholder="姓氏" />
 								<label id="name-last-error" for="name-last">请输入姓氏</label>
-								<input type="text" id="name-first" class="name-first borderStyle marginBottom14 positionRe" name="name-first" placeholder="名字" />
+								<input type="text" id="name-first" class="name-first borderStyle" name="name-first" placeholder="名字" />
 								<label id="name-first-error" for="name-first">请输入名字</label>
 							</div>
 							<div class="row-country marginBottom14">
@@ -638,6 +640,26 @@
 			</div>
 		</div>
 		<!--注册正文结束-->
+		<!--提示模态框开始-->
+		<div id="tipsModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">提示信息:</h4>
+					</div>
+					<div class="modal-body">
+						<p id="response-erro"></p>
+						<div class="spinner">
+							<div class="bounce1"></div>
+							<div class="bounce2"></div>
+							<div class="bounce3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--提示模态框结束-->
 		<!--尾部开始-->
 		<div id="reg-footer">
 			<div class="reg-footer-wrapper">
