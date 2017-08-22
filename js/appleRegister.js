@@ -374,7 +374,7 @@ $(function() {
 				$(".spinner").css("display", "block");
 				setTimeout(function() {
 					location.href = 'appleNewLogin.html';
-				}, 3000);
+				}, 4000);
 			}).then(function(er) {
 				var ret = errorAll.showError(er.responseText);
 				$("#response-erro").html(ret);
