@@ -20,6 +20,7 @@
 	margin: 0px auto;
 	/*border: 1px solid #000000;*/
 }
+
 .new-login-box {
 	position: absolute;
 	width: 100%;
@@ -30,9 +31,10 @@
 	width: 640px;
 	margin: 0px auto;
 	/*border: 1px solid #FFFFFF;*/
-	margin-top: 160px;
+	margin-top: 100px;
 	text-align: center;
 }
+
 .sub-nav-left-title {
 	float: left;
 	line-height: 61px;
@@ -55,12 +57,12 @@
 
 .item-link {
 	color: #0D0909;
-	
 }
 
 .item-link:hover {
 	text-decoration: underline;
 }
+
 .aid-log {
 	height: 61px;
 }
@@ -82,23 +84,49 @@
 	color: #FFFFFF;
 }
 
-.account-ID-input,
-.account-pwd-input {
+.account-ID-input {
 	width: 302px;
 	height: 22px;
-	padding: 10px 12px 10px 12px;
+	padding: 20px 12px 20px 12px;
 	outline: none;
-}
-
-.account-ID-input {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	border-bottom: none;
 }
 
 .account-pwd-input {
+	width: 302px;
+	height: 22px;
+	padding: 20px 12px 20px 12px;
+	outline: none;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+
+.signin-input {
+	position: relative;
+}
+
+.signin-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: -12px;
+	margin-left: 112px;
+}
+
+.signin-btn:hover {
+	cursor: pointer;
+}
+
+.signin-btn .glyphicon-circle-arrow-right {
+	position: relative;
+	top: 1px;
+	font-size: 28px;
+	/*color: #FFFFFF;*/
+	/*background: #929292;*/
 }
 
 .signin-remember-pwd {
@@ -132,23 +160,25 @@
 	border-radius: 5px;
 }
 
-.signin-remember-me-chkbox label:after {
+.remember-me-label:after {
 	opacity: 1;
 	content: '';
 	position: absolute;
 	width: 9px;
 	height: 5px;
-	background: transparent;
+	border: 2px solid transparent;
 	top: 3px;
 	left: 3px;
 	/*border: 2px solid #FFFFFC;*/
-	border-top: none;
-	border-right: none;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	/*border-top: #FFFFFF;
+	border-right:  #FFFFFF;*/
+	border-top-color: #FFFFFC;
+	border-right-color: #FFFFFC;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
 	/*display: none;*/
 }
 
@@ -171,6 +201,7 @@
 
 .forget-account-link:hover {
 	text-decoration: underline;
+	color: #FFFFFF;
 }
 
 
@@ -184,7 +215,6 @@
 .app-content-wrapper {
 	width: 656px;
 	margin: 0px auto;
-	padding: 0px 331.5px;
 }
 
 .home-content {

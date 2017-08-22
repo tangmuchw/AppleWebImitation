@@ -94,6 +94,22 @@ $(function() {
 		$("#reg-email").removeClass("error");
 		$("#reg-email-error2").fadeOut();
 		flag = true;
+		var regEmail = $("#reg-email").val();
+		$.ajax({
+			type: "get",
+			url: "https://api.leancloud.cn/1.1/users/55a47496e4b05001a7732c5f",
+			headers: {
+				"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+				"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC"
+			},
+			data:'{"username":"'+regEmail+'"}'
+		}).then(function(data) {
+			console.log(data);
+
+		}).then(function(er) {
+			var ret = errorAll.showError(er.responseText.code);
+			console.log(ret);
+		});
 
 	});
 
@@ -234,7 +250,6 @@ $(function() {
 				$("#question03-error").fadeOut();
 				$("#answer03-error").fadeIn();
 				flag = false;
-
 			}
 
 		}

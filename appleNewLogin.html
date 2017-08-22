@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/appleFooter.css" />
 		<link rel="stylesheet" type="text/css" href="webfont/iconfont.css" />
 		<link rel="stylesheet" type="text/css" href="css/appleNewLogin.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
 	</head>
 
 	<body>
@@ -467,25 +468,23 @@
 						<h1 class="manage-account-word">管理您的&nbsp;Apple&nbsp;帐户</h1>
 					</div>
 					<div class="signin-form">
-						<form id="signin-form">
-							<div class="signin-input">
-								<input type="text" name="account-ID" id="account-ID" class="account-ID-input" value="" placeholder="Apple ID" />
+						<div class="signin-input">
+							<input type="text" name="account-ID" id="account-ID" class="account-ID-input" value="" placeholder="Apple ID" />
+						</div>
+						<div class="signin-input">
+							<input type="password" name="account-pwd" id="account-pwd" class="account-pwd-input" value="" placeholder="密码" />
+							<div id="signin-btn" class="signin-btn"><i class="glyphicon glyphicon-circle-arrow-right"></i></div>
+						</div>
+						<div class="signin-remember-pwd">
+							<div class="signin-remember-me-chkbox">
+								<input type="checkbox" name="remember-me" id="remember-me" value="" />
+								<label for="remember-me" class="remember-me-label"></label>
 							</div>
-							<div class="signin-input">
-								<input type="text" name="account-pwd" id="account-pwd" class="account-pwd-input" value="" placeholder="密码" />
-							</div>
-							<div class="signin-remember-pwd">
-								<div class="signin-remember-me-chkbox">
-									<input type="checkbox" name="remember-me" id="remember-me" value="" />
-									<label for="remember-me" class="remember-me-label"></label>
-								</div>
-								<div class="signin-remember-pwd-word">
-									记住我的&nbsp;Apple&nbsp;ID
-								</div>
-
+							<div class="signin-remember-pwd-word">
+								记住我的&nbsp;Apple&nbsp;ID
 							</div>
 
-						</form>
+						</div>
 					</div>
 					<div class="forget-account">
 						<a href="#" class="forget-account-link ">
@@ -565,6 +564,9 @@
 		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
 		<script type="text/javascript" src="js/appleHeader.js"></script>
 		<script type="text/javascript" src="js/appleNewLogin.js"></script>
+		<script type="text/javascript" src="js/errorShow.js"></script>
+		<script type="text/javascript" src="js/setCookie.js"></script>
+
 	</body>
 
 </html>
