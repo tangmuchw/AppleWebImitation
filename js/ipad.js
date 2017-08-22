@@ -63,7 +63,7 @@ $(function() {
 		var text2 = $(".video-text1")[0];
 		var vedio2 = $(".vedioMP4-4");
 		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7400 && scrollTop <8000) {
+		if(scrollTop >= 7600 && scrollTop <8100) {
 			text2.style.animation = "move1 1s";
 			text2.style.top = -50 + "px";
 			var imgbtn = playbtn2.children()[0];
@@ -94,7 +94,7 @@ $(function() {
 		var text3 = $(".video-text2")[0];
 		var vedio3 = $(".videoMP4-5");
 		var playbtn3 = $(".vedio-btn2");
-		if(scrollTop >= 9600 && scrollTop < 10000) {
+		if(scrollTop >= 10200 && scrollTop < 10600) {
 			text3.style.animation = "move1 1s";
 			text3.style.top = -50 + "px";
 			var imgbtn = playbtn3.children()[0];
@@ -111,7 +111,7 @@ $(function() {
 				}
 				btnclick(playbtn3);
 			}
-		} else if(scrollTop < 9100 || scrollTop >= 10000) {
+		} else if(scrollTop < 9800 || scrollTop >= 10600) {
 			text3.style.animation = "move2 0.7s";
 			text3.style.top = 80 + "px";
 			if(text3.style.top == 80 + "px") {

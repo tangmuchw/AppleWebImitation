@@ -43,7 +43,7 @@ $(function() {
 		chlickImg(index);
 		littleImg()
 	});
-
+    
 	function setindex(index) {
 		switch(index) {
 			case '0':
@@ -269,14 +269,24 @@ $(function() {
 		}
 	})
 	//定义图片的json数组
+	var searchView = $("#searchView");
+	var advWrapper = $("#adv-wrapper");
+	var globalNavWrapper = $(".globalNav-wrapper");
+	var chapterNavWrapper=$(".chapterNav-wrapper");
 	bigImg.click(function(){
 		$("#showBigImg").css("display","block");
 		$(".lighting").animate({left:390,top:0,width:600},200);
 		$(".showImg").animate({height:658},200);
+		searchView.css("display", "none");
+		advWrapper.css("display", "none");
+		globalNavWrapper.css("display","none");
+		chapterNavWrapper.css("display","none");
 	});
 	$(".back").click(function(){
 		$(".showImg").animate({height:572},200);
 		$(".lighting").animate({left:700,top:40,width:572},200);
+		chapterNavWrapper.css("display","none");
+		globalNavWrapper.css("display","block");
 		setTimeout(function() {
 							
 								$("#showBigImg").css("display","none");
