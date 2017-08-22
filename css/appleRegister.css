@@ -268,7 +268,8 @@
 }
 
 .code-confirm {
-	overflow: hidden;
+	height: 94px;
+	/*overflow: hidden;*/
 }
 
 .code-wrapper {
@@ -373,7 +374,8 @@
 .row-pwd,
 .row-comfirmPwd,
 .row-questiones,
-.row-answers {
+.row-answers,
+.code-write {
 	position: relative;
 }
 
@@ -563,7 +565,8 @@
 #question03-error,
 #answer01-error,
 #answer02-error,
-#answer03-error {
+#answer03-error,
+#code-error {
 	width: 200px;
 	height: 66px;
 	border: 1px solid #dabf52;
@@ -600,7 +603,8 @@
 #question03-error:after,
 #answer01-error:after,
 #answer02-error:after,
-#answer03-error:after {
+#answer03-error:after,
+#code-error:after {
 	content: '';
 	display: block;
 	width: 0;
@@ -618,7 +622,8 @@
 #question03-error:before,
 #answer01-error:before,
 #answer02-error:before,
-#answer03-error:before {
+#answer03-error:before,
+#code-error:before {
 	content: '';
 	display: block;
 	width: 0;
@@ -629,4 +634,13 @@
 	left: 50%;
 	top: 66px;
 	margin-left: -7px;
+}
+
+#code-error {
+	width: 300px;
+	top: 0;
+	margin-left: -150px;
+	margin-top: -60px;
+	z-index: 22;
+	/*display: none;*/
 }

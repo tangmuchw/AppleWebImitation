@@ -470,173 +470,170 @@
 							<a href="#" class="link-lookforId">在此查找</a>&gt;
 						</div>
 					</div>
-					<form id="regForm" action="" method="post">
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="row-full-name">
-									<input type="text" id="name-last" class="name-last borderStyle marginBottom14 positionRe" name="name-last" placeholder="姓氏" />
-									<label id="name-last-error" for="name-last">请输入姓氏</label>
-									<input type="text" id="name-first" class="name-first borderStyle marginBottom14 positionRe" name="name-first" placeholder="名字" />
-									<label id="name-first-error" for="name-first">请输入名字</label>
-								</div>
-								<div class="row-country marginBottom14">
-									<select name="selectCountry" class="selectCountry borderStyle" id="homearea">
-										<option value="GBR">英国</option>
-										<option value="IOT">英属印度洋领地</option>
-										<option value="JOR">约旦</option>
-										<option value="VNM">越南</option>
-										<option value="ZMB">赞比亚</option>
-										<option value="TCD">乍得</option>
-										<option value="GIB">直布罗陀</option>
-										<option value="CHL">智利</option>
-										<option value="CAF">中非共和国</option>
-										<option value="CHN" selected="selected">中国</option>
-										<option value="MAC">中国澳门特别行政区</option>
-										<option value="HKG">中国香港特别行政区</option>
-										<option value="NRU">瑙鲁</option>
-										<option value="VAT">梵蒂冈</option>
-										<option value="FJI">斐济</option>
-									</select>
-								</div>
-								<div class="row-birthday">
-									<input type="text" id="birthday" class="borderStyle textShape" name="birthday" placeholder="出生日期" />
-									<label id="birthday-error" for="birthday">输入有效出生日期</label>
-									<div class="birthday-warn">?</div>
-									<div class="birthday-warn-content">出生日期会帮助验证您的身份或启用特定<br />Apple&nbsp;服务。</div>
-
-								</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="row-full-name">
+								<input type="text" id="name-last" class="name-last borderStyle marginBottom14 positionRe" name="name-last" placeholder="姓氏" />
+								<label id="name-last-error" for="name-last">请输入姓氏</label>
+								<input type="text" id="name-first" class="name-first borderStyle marginBottom14 positionRe" name="name-first" placeholder="名字" />
+								<label id="name-first-error" for="name-first">请输入名字</label>
 							</div>
-						</div>
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="row-email">
-									<input name="reg-email" id="reg-email" class="borderStyle textShape" type="email" value="" placeholder="name@example.com" />
-									<label id="reg-email-error2" for="reg-email">请输入邮箱</label>
-									<div class="newEmail-tips marginBottom14">
-										这将是您的新Apple&nbsp;ID。
-									</div>
-								</div>
-								<div class="row-pwd marginBottom14">
-									<input type="password" id="pwd" class="borderStyle textShape" name="pwd" value="" placeholder="密码" />
-									<label id="pwd-error" for="pwd">请输入密码</label>
-								</div>
-								<div class="row-comfirmPwd">
-									<input type="password" id="comfirmPwd" class="borderStyle textShape" name="comfirmPwd" placeholder="确认密码" />
-									<label id="comfirmPwd-error" for="comfirmPwd">确认您的密码</label>
-								</div>
+							<div class="row-country marginBottom14">
+								<select name="selectCountry" class="selectCountry borderStyle" id="homearea">
+									<option value="GBR">英国</option>
+									<option value="IOT">英属印度洋领地</option>
+									<option value="JOR">约旦</option>
+									<option value="VNM">越南</option>
+									<option value="ZMB">赞比亚</option>
+									<option value="TCD">乍得</option>
+									<option value="GIB">直布罗陀</option>
+									<option value="CHL">智利</option>
+									<option value="CAF">中非共和国</option>
+									<option value="CHN" selected="selected">中国</option>
+									<option value="MAC">中国澳门特别行政区</option>
+									<option value="HKG">中国香港特别行政区</option>
+									<option value="NRU">瑙鲁</option>
+									<option value="VAT">梵蒂冈</option>
+									<option value="FJI">斐济</option>
+								</select>
+							</div>
+							<div class="row-birthday">
+								<input type="text" id="birthday" class="borderStyle textShape" name="birthday" placeholder="出生日期" />
+								<label id="birthday-error" for="birthday">输入有效出生日期</label>
+								<div class="birthday-warn">?</div>
+								<div class="birthday-warn-content">出生日期会帮助验证您的身份或启用特定<br />Apple&nbsp;服务。</div>
 
 							</div>
 						</div>
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="row-questiones marginBottom14">
-									<select name="question01" id="question01" class="borderStyle">
-										<option value="安全提示问题1">安全提示问题1</option>
-										<option value="你少年时代最好的朋友叫什么">你少年时代最好的朋友叫什么名字？</option>
-										<option value="你的第一个宠物叫什么名字">你的第一个宠物叫什么名字？</option>
-									</select>
-									<label id="question01-error" for="question01">选择一个问题</label>
-								</div>
-								<div class="row-answers marginBottom14">
-									<input type="text" id="answer01" class="borderStyle textShape" name="answer01" placeholder="答案" />
-									<label id="answer01-error" for="answer01">输入答案</label>
-
-								</div>
-								<div class="row-questiones marginBottom14">
-									<select name="question02" id="question02" class="borderStyle">
-										<option value="安全提示问题2">安全提示问题2</option>
-										<option value="你的理想工作是什么">你的理想工作是什么?</option>
-										<option value="你小时候最喜欢的一本书是什么">你小时候最喜欢的一本书是什么?</option>
-									</select>
-									<label id="question02-error" for="question02">选择一个问题</label>
-
-								</div>
-								<div class="row-answers marginBottom14">
-									<input type="text" id="answer02" class="borderStyle textShape" name="answer02" placeholder="答案" />
-									<label id="answer02-error" for="answer02">输入答案</label>
-								</div>
-								<div class="row-questiones marginBottom14">
-									<select name="question03" id="question03" class="borderStyle">
-										<option value="安全提示问题3">安全提示问题3</option>
-										<option value="你的父母是在哪里认识的">你的父母是在哪里认识的?</option>
-										<option value="你的第一个上司叫什么名字">你的第一个上司叫什么名字?</option>
-									</select>
-									<label id="question03-error" for="question03">选择一个问题</label>
-
-								</div>
-								<div class="row-answers marginBottom14">
-									<input type="text" id="answer03" class="borderStyle textShape" name="answer03" placeholder="答案" />
-									<label id="answer03-error" for="answer03">输入答案</label>
-
+					</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="row-email">
+								<input name="reg-email" id="reg-email" class="borderStyle textShape" type="email" value="" placeholder="name@example.com" />
+								<label id="reg-email-error2" for="reg-email">请输入邮箱</label>
+								<div class="newEmail-tips marginBottom14">
+									这将是您的新Apple&nbsp;ID。
 								</div>
 							</div>
-						</div>
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="row-update marginBottom14">
-									<div class="checkbox-wrapper">
-										<input type="checkbox" name="news" id="news" value="" class="chkBoxInput" />
-										<!--label标签用于Click事件和要定义的复选框的方框样式-->
-										<label for="news" id="news-label"></label>
-									</div>
-									<div class="update-list">
-										<div class="update-list-title">公告</div>
-										<div class="update-list-extend">
-											获取有关 Apple 产品、服务、软件更新等的公告、推荐和更新。
-										</div>
-									</div>
-								</div>
-								<div class="row-update marginBottom14">
-									<div class="checkbox-wrapper">
-										<input type="checkbox" name="itunes" id="itunes" value="" class="chkBoxInput" />
-										<label for="itunes" id="itunes-label"></label>
-									</div>
-									<div class="update-list">
-										<div class="update-list-title">Apple Music、新 App及更多内容。</div>
-										<div class="update-list-extend">
-											获取有关音乐、App、电影、电视、书籍、播客等的推荐、最新发布、特别优惠和独家内容。
-										</div>
-									</div>
-								</div>
+							<div class="row-pwd marginBottom14">
+								<input type="password" id="pwd" class="borderStyle textShape" name="pwd" value="" placeholder="密码" />
+								<label id="pwd-error" for="pwd">请输入密码</label>
 							</div>
+							<div class="row-comfirmPwd">
+								<input type="password" id="comfirmPwd" class="borderStyle textShape" name="comfirmPwd" placeholder="确认密码" />
+								<label id="comfirmPwd-error" for="comfirmPwd">确认您的密码</label>
+							</div>
+
 						</div>
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="code-confirm">
-									<div class="code-wrapper">
-										<img class="code-img" src="img/registerImg/code/code_3N1A.jpg" alt="" />
-									</div>
-									<div class="code-write">
-										<input type="text" name="code" id="code" class="codeInput borderStyle marginBottom14" value="" placeholder="键入图中的字符" />
-										<ul class="refresh-list">
-											<li class="refresh-list-item refresh-line ">
-												<a href="#" id="refresh-code" class="refresh-list-item-link">新代码</a>
-											</li>
-											<li class="refresh-list-item paddingLeft15">
-												<a href="#" class="refresh-list-item-link">视力障碍</a>
-											</li>
-										</ul>
-									</div>
-								</div>
+					</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="row-questiones marginBottom14">
+								<select name="question01" id="question01" class="borderStyle">
+									<option value="安全提示问题1">安全提示问题1</option>
+									<option value="你少年时代最好的朋友叫什么">你少年时代最好的朋友叫什么名字？</option>
+									<option value="你的第一个宠物叫什么名字">你的第一个宠物叫什么名字？</option>
+								</select>
+								<label id="question01-error" for="question01">选择一个问题</label>
+							</div>
+							<div class="row-answers marginBottom14">
+								<input type="text" id="answer01" class="borderStyle textShape" name="answer01" placeholder="答案" />
+								<label id="answer01-error" for="answer01">输入答案</label>
+
+							</div>
+							<div class="row-questiones marginBottom14">
+								<select name="question02" id="question02" class="borderStyle">
+									<option value="安全提示问题2">安全提示问题2</option>
+									<option value="你的理想工作是什么">你的理想工作是什么?</option>
+									<option value="你小时候最喜欢的一本书是什么">你小时候最喜欢的一本书是什么?</option>
+								</select>
+								<label id="question02-error" for="question02">选择一个问题</label>
+
+							</div>
+							<div class="row-answers marginBottom14">
+								<input type="text" id="answer02" class="borderStyle textShape" name="answer02" placeholder="答案" />
+								<label id="answer02-error" for="answer02">输入答案</label>
+							</div>
+							<div class="row-questiones marginBottom14">
+								<select name="question03" id="question03" class="borderStyle">
+									<option value="安全提示问题3">安全提示问题3</option>
+									<option value="你的父母是在哪里认识的">你的父母是在哪里认识的?</option>
+									<option value="你的第一个上司叫什么名字">你的第一个上司叫什么名字?</option>
+								</select>
+								<label id="question03-error" for="question03">选择一个问题</label>
+
+							</div>
+							<div class="row-answers marginBottom14">
+								<input type="text" id="answer03" class="borderStyle textShape" name="answer03" placeholder="答案" />
+								<label id="answer03-error" for="answer03">输入答案</label>
 
 							</div>
 						</div>
-						<div class="flow-section">
-							<div class="section-wrapper">
-								<div class="submit-section">
-									<div class="submit-section-title">
-										Apple 致力于保护您的隐私。
-										<a href="#" class="more-link">了解更多...</a>
+					</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="row-update marginBottom14">
+								<div class="checkbox-wrapper">
+									<input type="checkbox" name="news" id="news" value="" class="chkBoxInput" />
+									<!--label标签用于Click事件和要定义的复选框的方框样式-->
+									<label for="news" id="news-label"></label>
+								</div>
+								<div class="update-list">
+									<div class="update-list-title">公告</div>
+									<div class="update-list-extend">
+										获取有关 Apple 产品、服务、软件更新等的公告、推荐和更新。
 									</div>
-									<div class="submit-section-btn">
-										<input type="submit" name="continue-btn" id="continue-btn" class="continue-btn-shape" value="继续" />
+								</div>
+							</div>
+							<div class="row-update marginBottom14">
+								<div class="checkbox-wrapper">
+									<input type="checkbox" name="itunes" id="itunes" value="" class="chkBoxInput" />
+									<label for="itunes" id="itunes-label"></label>
+								</div>
+								<div class="update-list">
+									<div class="update-list-title">Apple Music、新 App及更多内容。</div>
+									<div class="update-list-extend">
+										获取有关音乐、App、电影、电视、书籍、播客等的推荐、最新发布、特别优惠和独家内容。
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="code-confirm">
+								<div class="code-wrapper">
+									<img class="code-img" src="img/registerImg/code/code_3N1A.jpg" alt="" />
+								</div>
+								<div class="code-write">
+									<input type="text" name="code" id="code" class="codeInput borderStyle marginBottom14" value="" placeholder="键入图中的字符" />
+									<label for="code" id="code-error">请输入您看到或听到的字符以继续</label>
+									<ul class="refresh-list">
+										<li class="refresh-list-item refresh-line ">
+											<a href="#" id="refresh-code" class="refresh-list-item-link">新代码</a>
+										</li>
+										<li class="refresh-list-item paddingLeft15">
+											<a href="#" class="refresh-list-item-link">视力障碍</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 
-					</form>
-
+						</div>
+					</div>
+					<div class="flow-section">
+						<div class="section-wrapper">
+							<div class="submit-section">
+								<div class="submit-section-title">
+									Apple 致力于保护您的隐私。
+									<a href="#" class="more-link">了解更多...</a>
+								</div>
+								<div class="submit-section-btn">
+									<input type="submit" name="continue-btn" id="continue-btn" class="continue-btn-shape" value="继续" />
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
