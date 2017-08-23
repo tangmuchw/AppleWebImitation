@@ -15,7 +15,7 @@
 
 .reg-content-wrapper {
 	width: 980px;
-	height: 61px;
+	/*height: 61px;*/
 	margin: 0px auto;
 	/*border: 1px solid #000000;*/
 }
@@ -54,12 +54,17 @@
 .item-link:hover {
 	text-decoration: underline;
 }
-
+.reg-content-headline{
+	/*height: 74px;*/
+}
 .headline-createID {
 	text-align: center;
 	color: #FFFFFF;
+	height: 44px;
 	line-height: 44px;
 	font-weight: 200;
+	margin: 0;
+	/*border:1px solid;*/
 }
 
 
