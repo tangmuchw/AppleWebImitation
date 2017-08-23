@@ -1,7 +1,7 @@
 #main {
 	width: 100%;
 	margin: 0px auto;
-	min-width: 1500px;
+	min-width: 1000px;
 }
 
 .shopHeader {
@@ -53,6 +53,7 @@
 }
 
 .lunbo {
+	overflow: hidden;
 	width: 100%;
 	height: 800px;
 	position: relative;
@@ -315,7 +316,7 @@
 .ui-scroll-media {
 	width: 307px;
 	height: 623px;
-	margin-left: -153.5px;
+	/*margin-left: -153.5px;*/
 }
 
 .image-experience-shadow {
@@ -367,9 +368,11 @@
 
 .ui-scroll-content {
 	/*padding-right: 100px;*/
+	width: 396px;
 	padding-top: 200px;
 	position: relative;
-	left: -100px;
+	left: 580px;
+	top: -900px;
 }
 
 .description-title {
@@ -573,6 +576,9 @@
 
 .command-color2 {
 	color: #E4CDDB;
+	position: absolute;
+	left: 700px;
+	top: 0px;
 }
 
 .message-subsection {
@@ -754,4 +760,9 @@
 	position: absolute;
 	left: -150px;
 	top: -50px;
+}
+.replay-btn{
+	background-color: #FAF8FE;
+	border: 0px;
+	outline: none;
 }

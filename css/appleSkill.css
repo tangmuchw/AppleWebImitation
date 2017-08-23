@@ -1,7 +1,8 @@
-body{
+body {
 	width: 100%;
 	height: 4918px;
 }
+
 .section-hero-content {
 	width: 100%;
 }
@@ -15,12 +16,65 @@ body{
 .hero-video-container {
 	width: 100%;
 	height: 780px;
+	position: relative;
 }
 
 .hero-video {
 	width: 100%;
 	height: 100%;
 	object-fit: fill;
+}
+
+.hero-headline-wrapper {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 780px;
+}
+.hero-headline-wrapper1 {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 780px;
+	z-index: 2000;
+	background-color: rgba(0,0,0,0.4);
+	/*border: 1px solid white;*/
+}
+.visuallyhidden {
+	display: block;
+	margin-right: 459.6px;
+	margin-left: 459.6px;
+	height: 184.6px;
+}
+
+.typography-hero-headline1 {
+	margin-top: 110px;
+	margin-right: 459.6px;
+	margin-left: 459.6px;
+	height: 184.6px;
+	font-size: 80px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.centerall {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.centerall1 {
+	width: 400px;
+	height: 200px;
+	/*border: 1px solid #FFFFFF;*/
+	margin: 0px auto;
+	line-height: 57px;
+	text-align: center;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-size: 100% auto;
+	padding-bottom: 10px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	background-image: url(../img/appleskill/hero_fallback_background_large.jpg);
 }
 
 .section-card-grid {
@@ -244,10 +298,6 @@ body{
 	left: 145px;
 	top: -350px;
 }
-
-
-
-
 
 
 /*尾部开始*/
