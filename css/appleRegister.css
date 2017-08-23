@@ -656,3 +656,8 @@
 	z-index: 22;
 	display: none;
 }
+
+.birthday-focus {
+	color: #333339;
+	font-weight: bold;
+}
