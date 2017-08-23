@@ -63,7 +63,7 @@ $(function() {
 		var text2 = $(".video-text1")[0];
 		var vedio2 = $(".vedioMP4-4");
 		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7400 && scrollTop < 7900) {
+		if(scrollTop >= 7200 && scrollTop < 7900) {
 			text2.style.animation = "move1 1s";
 			text2.style.top = -50 + "px";
 			var imgbtn = playbtn2.children()[0];
