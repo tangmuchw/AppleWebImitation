@@ -442,6 +442,52 @@
 					</div>
 				</div>
 				<!--购物袋标题结束-->
+				<!--未登录购物袋开始-->
+				<div class="bag-notSignin box-container">
+					<div class="box-title">
+						<div class="grid-row grid-row-borderBottom">
+							<i></i>
+							<h1 class="grid-row-title">购物袋内的产品</h1>
+						</div>
+					</div>
+					<div id="empty-cart">
+						<div class="empty-cart-container">
+							<div id="cart-items-empty">
+								<p class="cart-items-empty-desc">你的购物袋内没有产品</p>
+								<p class="cart-items-empty-desc">
+									如果你已有帐户，
+									<a href="login.html">登录</a>
+									即可查看购物袋
+								</p>
+							</div>
+							<div id="cookies-message">
+								<span class="cookies-message-desc">
+									 如果你已将货品放入购物袋，但购物袋仍为空，可能是因为你在浏览器设置中禁用了Cookie。如果禁用了 Cookie，请启用接受 Cookie，然后再试一次。 
+								</span>
+							</div>
+						</div>
+						<div id="empty-cart-action" class="cart-acount clearFr bgGradient">
+							<div class="cart-action-group">
+								<div class="cart-action-left">
+									<ul class="cart-action-left-list clearFr">
+										<li class="pipe-first pipe">
+											<a href="#">选购配件</a>
+										</li>
+										<li class="pipe online">
+											<a href="#">查看已保存的购物袋</a>
+										</li>
+									</ul>
+								</div>
+								<div class="cart-action-right">
+									<div id="go-on-btn" class="go-on-btn">继续购物</div>
+									<!--<input type="submit" name="checkOut" id="go-on-btn" class="go-on-btn" value="继续购物" />-->
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--未登录购物袋结束-->
 				<!--购物袋盒子开始-->
 				<div class="bag-box box-container">
 					<div class="box-title">
@@ -454,11 +500,11 @@
 						<ul id="cart-items">
 							<li class="cart-item">
 								<div class="remove-mask">
-
+									从购物袋中移除此商品
 								</div>
 								<div class="cart-product">
 									<div class="cart-item-image-wrapper">
-										<img src="img/cartImg/item05/iphone6s-plus-rosegold-select-2015.jpg" class="cart-item-image" alt="" />
+										<a href="javascript:;"><img src="img/cartImg/item01/iphone6s-plus-rosegold-select-2015.jpg" class="cart-item-image" alt="" /></a>
 									</div>
 									<div class="product-info">
 										<div class="product-info-detail">
@@ -467,14 +513,13 @@
 											</div>
 											<ul class="price-quantity-list">
 												<li class="price-quantity-item product-price">
-													<span class="product-price-display">RMB&nbsp;298</span>
+													RMB&nbsp;<span class="product-price-display">298</span>
 												</li>
 												<li class="price-quantity-item quantity-select">
-													<label for="quantity-select-input"></label>
 													<input type="text" name="quantity-select-input" id="quantity-select-input" class="quantity-input" value="1" min="0" max="999" maxlength="3" />
 												</li>
 												<li class="price-quantity-item quantity-price">
-													<span class="quantity-price-display">RMB&nbsp;298</span>
+													RMB&nbsp;<span class="quantity-price-display">298</span>
 												</li>
 											</ul>
 										</div>
@@ -482,8 +527,8 @@
 											<div class="delivery-date">
 												送达日期:<span class="available-date">有现货</span>
 											</div>
-											<div class="del">
-												<a href="javascript:;" class="del-link">删除</a>
+											<div class="del-cart-item">
+												<a href="javascript:;" class="del-cart-item-link">删除</a>
 											</div>
 										</div>
 										<div class="part-number clearFr">
@@ -524,10 +569,84 @@
 												</ul>
 											</div>
 										</div>
-
 									</div>
 								</div>
 							</li>
+							<li class="cart-item">
+								<div class="remove-mask">
+									从购物袋中移除此商品
+								</div>
+								<div class="cart-product">
+									<div class="cart-item-image-wrapper">
+										<a href="javascript:;"><img src="img/cartImg/item01/iphone6s-plus-rosegold-select-2015.jpg" class="cart-item-image" alt="" /></a>
+									</div>
+									<div class="product-info">
+										<div class="product-info-detail">
+											<div class="product-name">
+												<h2 class="product-name-h2"><a href="#" class="product-name-link">iPhone 6 Plus/6s Plus 硅胶保护壳 - 午夜蓝色</a></h2>
+											</div>
+											<ul class="price-quantity-list">
+												<li class="price-quantity-item product-price">
+													RMB&nbsp;<span class="product-price-display">298</span>
+												</li>
+												<li class="price-quantity-item quantity-select">
+													<input type="text" name="quantity-select-input" id="quantity-select-input" class="quantity-input" value="1" min="0" max="999" maxlength="3" />
+												</li>
+												<li class="price-quantity-item quantity-price">
+													RMB&nbsp;<span class="quantity-price-display">400</span>
+												</li>
+											</ul>
+										</div>
+										<div class="delivery-del clearFr">
+											<div class="delivery-date">
+												送达日期:<span class="available-date">有现货</span>
+											</div>
+											<div class="del-cart-item">
+												<a href="javascript:;" class="del-cart-item-link">删除</a>
+											</div>
+										</div>
+										<div class="part-number clearFr">
+											编号:<span class="product-number">MKXL2FE/A</span>
+										</div>
+										<div class="gift clearFr">
+											<div class="item-gifting-group">
+												<i class="iconfont icon-gift"></i>
+												<a href="javascript:;" class="gift-btn-link">显示礼品选项</a>
+												<ul class="gift-options">
+													<li class="gift-options-item">
+														<i></i>在送货清单上添加礼品赠言 -&nbsp;免费
+														<div class="msg-board">
+															<p class="placeholder-slot">
+																<textarea class="gift-msg-text" name="gift-msg-text" rows="" cols="" maxlength="225" placeholder="添加免费礼物留言"></textarea>
+															</p>
+															<div class="masg-options-group">
+																<span class="masg-options-cancel"><a href="#">取消</a></span>
+																<span class="parting-line">|</span>
+																<span class="masg-options-sure"><a href="#">确认添加留言</a></span>
+															</div>
+
+														</div>
+													</li>
+													<li class="gift-options-item">
+														<i></i>红色礼品包装及贺卡 - RMB&nbsp;40
+														<div class="msg-board">
+															<p class="placeholder-slot">
+																<textarea class="gift-msg-text" name="gift-msg-text" rows="" cols="" maxlength="225" placeholder="在贺卡上添加文字(可选)"></textarea>
+															</p>
+															<div class="masg-options-group">
+																<span class="masg-options-cancel"><a href="#">取消</a></span>
+																<span class="parting-line">|</span>
+																<span class="masg-options-sure"><a href="#">确认礼品包装</a></span>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
 						</ul>
 						<div id="cart-summary" class="clearfr">
 							<div class="offer-summary">
@@ -540,7 +659,7 @@
 										<td class="col-offer-total-word">
 											<h3 class="offer-total-word-h3">总计</h3></td>
 										<td class="col-offer-total-value">
-											<h3 class="offer-total-word-h3">BMB&nbsp;6,486</h3>
+											<h3 class="offer-total-word-h3">BMB&nbsp;<span id="allTotal">6,486</span></h3>
 										</td>
 									</tr>
 									<tr class="byStages-content">
@@ -557,7 +676,7 @@
 								</table>
 							</div>
 						</div>
-						<div id="cart-action" class="cart-acount clearFr">
+						<div id="cart-action" class="cart-acount clearFr bgGradient">
 							<div class="cart-action-group">
 								<div class="cart-action-left">
 									<ul class="cart-action-left-list clearFr">
@@ -576,17 +695,91 @@
 									</ul>
 								</div>
 								<div class="cart-action-right">
-									<input type="submit" name="checkOut" id="checkOut" class="checkOut-btn" value="结帐" />
+									<input type="button" name="checkOut" id="checkOut" class="checkOut-btn" value="结帐" />
 								</div>
 							</div>
 						</div>
 					</div>
-					<div id="cart-recommendations">
-
+				</div>
+				<!--购物袋盒子结束-->
+				<!--推荐开始-->
+				<div id="cart-recommendations" class="box-container">
+					<div class="box-title">
+						<div class="grid-row grid-row-borderBottom">
+							<i></i>
+							<h1 class="grid-row-title">为你推荐</h1>
+						</div>
+						<ul class="recommand-list">
+							<li class="recommand-list-item">
+								<div class="item-goods-left">
+									<div class="item-goods-image-wrapper">
+										<a href="javascript:;"><img src="img/cartImg/item01/APPLECARE-plus.jpg" /></a>
+									</div>
+								</div>
+								<div class="item-goods-desc">
+									<div class="item-goods-desc-title">
+										<a href="#" class="item-goods-desc-title-link">适用于 iPhone&nbsp;7、iPhone&nbsp;7&nbsp;Plus、&nbsp;iPhone&nbsp;6s和iPhone&nbsp;6s&nbsp;Plus&nbsp;的 AppleCare+&nbsp;全方位服务计划</a>
+									</div>
+									<div class="item-goods-desc-price">
+										RMB&nbsp;988
+									</div>
+									<a href="javascript:;" class="addCart-Btn bgGradient">添加到购物袋</a>
+								</div>
+							</li>
+							<li class="recommand-list-item">
+								<div class="item-goods-left">
+									<div class="item-goods-image-wrapper">
+										<a href="javascript:;"><img src="img/cartImg/item01/APPLECARE-plus.jpg" /></a>
+									</div>
+								</div>
+								<div class="item-goods-desc">
+									<div class="item-goods-desc-title">
+										<a href="#" class="item-goods-desc-title-link">适用于 iPhone&nbsp;7、iPhone&nbsp;7&nbsp;Plus、&nbsp;iPhone&nbsp;6s和iPhone&nbsp;6s&nbsp;Plus&nbsp;的 AppleCare+&nbsp;全方位服务计划</a>
+									</div>
+									<div class="item-goods-desc-price">
+										RMB&nbsp;988
+									</div>
+									<a href="javascript:;" class="addCart-Btn bgGradient">添加到购物袋</a>
+								</div>
+							</li>
+							<li class="recommand-list-item">
+								<div class="item-goods-left">
+									<div class="item-goods-image-wrapper">
+										<a href="javascript:;"><img src="img/cartImg/item01/APPLECARE-plus.jpg" /></a>
+									</div>
+								</div>
+								<div class="item-goods-desc">
+									<div class="item-goods-desc-title">
+										<a href="#" class="item-goods-desc-title-link">适用于 iPhone&nbsp;7、iPhone&nbsp;7&nbsp;Plus、&nbsp;iPhone&nbsp;6s和iPhone&nbsp;6s&nbsp;Plus&nbsp;的 AppleCare+&nbsp;全方位服务计划</a>
+									</div>
+									<div class="item-goods-desc-price">
+										RMB&nbsp;988
+									</div>
+									<a href="javascript:;" class="addCart-Btn bgGradient">添加到购物袋</a>
+								</div>
+							</li>
+							<li class="recommand-list-item">
+								<div class="item-goods-left">
+									<div class="item-goods-image-wrapper">
+										<a href="javascript:;"><img src="img/cartImg/item01/APPLECARE-plus.jpg" /></a>
+									</div>
+								</div>
+								<div class="item-goods-desc">
+									<div class="item-goods-desc-title">
+										<a href="#" class="item-goods-desc-title-link">适用于 iPhone&nbsp;7、iPhone&nbsp;7&nbsp;Plus、&nbsp;iPhone&nbsp;6s和iPhone&nbsp;6s&nbsp;Plus&nbsp;的 AppleCare+&nbsp;全方位服务计划</a>
+									</div>
+									<div class="item-goods-desc-price">
+										RMB&nbsp;988
+									</div>
+									<a href="javascript:;" class="addCart-Btn bgGradient">添加到购物袋</a>
+								</div>
+							</li>
+						</ul>
 					</div>
 
 				</div>
-				<!--购物袋盒子结束-->
+				<!--推荐结束-->
+				<div style="clear: both;"></div>
 				<!--问题开始-->
 				<div class="bag-questions box-container">
 					<div class="box-title">
@@ -852,10 +1045,10 @@
 			</div>
 		</div>
 		<!--尾部结束-->
-		<script type="text/javascript" src="js/jquery-1.11.0.js">
-		</script>
-		<script type="text/javascript" src="js/appleHeader.js">
-		</script>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/appleHeader.js"></script>
+		<script type="text/javascript" src="js/appleShopBag.js"></script>
+		<script type="text/javascript" src="js/errorShow.js"></script>
 
 	</body>
 
