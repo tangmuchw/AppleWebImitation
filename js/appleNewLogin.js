@@ -21,7 +21,12 @@ $(function() {
 
 	});
 
-	$("#account-ID").focusout(function() {
+	$("#account-ID").focus(function() {
+		var username = sessionStorage.getItem("username");
+		if(username != null && username != "") {
+			$("#account-ID").val() = username;
+		}
+	}).focusout(function() {
 		var accountID = $("#account-ID").val();
 		var accountPwd = getCookie(accountID);
 		$("#account-pwd").val(accountPwd);
@@ -44,8 +49,8 @@ $(function() {
 			success: function(data) {
 				//				console.log(data);
 				//				console.log("登录成功");
-				sessionStorage.setItem("session",data.sessionToken);
-				sessionStorage.setItem("currentUserId",data.objectId);
+				sessionStorage.setItem("session", data.sessionToken);
+				sessionStorage.setItem("currentUserId", data.objectId);
 				$("#response-erro").html("登录成功！请等待跳转");
 				$(".spinner").css("display", "block");
 				setTimeout(function() {

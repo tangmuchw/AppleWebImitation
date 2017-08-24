@@ -18,6 +18,9 @@ $(function() {
 			signIn.get(0).href = "javascript:;";
 			signIn.click(function() {
 				sessionStorage.removeItem("session");
+				sessionStorage.removeItem("username");
+				sessionStorage.removeItem("currentUserId");
+				$("#cart-recommendations").css("display","none");
 				//				signIn.get(0).href = "login.html";
 				location.reload(function() {
 					var signIn = $(".bagview-nav-link-signIn");

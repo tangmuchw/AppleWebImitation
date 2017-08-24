@@ -138,6 +138,14 @@ $(function() {
 					//					console.log(data2.results[1].goodsId.objectId);
 					//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
 
+					if(data2.results.length > 0) {
+						$("#cart-recommendations").css("display", "block");
+
+					} else {
+						$("#cart-recommendations").css("display", "none");
+
+					}
+
 					for(var n = 0; n < data.results.length; n++) {
 						var equl = true;
 						for(var m = 0; m < data2.results.length; m++) {
@@ -155,12 +163,14 @@ $(function() {
 						}
 						if(!equl) {
 							addRecommandItem(data.results[n].imgSrcCart, data.results[n].goodsName, data.results[n].goodsPrice, data.results[n].objectId);
+							addCart();
+
 						}
 
 					}
 
 					for(var j = 0; j < data2.results.length; j++) {
-						addItem(data2.results[j].goodsId.imgSrcCart, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum);
+						addItem(data2.results[j].goodsId.imgSrcCart, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum, data2.results[j].objectId);
 					}
 
 				}
@@ -208,7 +218,7 @@ $(function() {
 
 	//	addItem("img/cartImg/item01/iphone6s-plus-rosegold-select-2015.jpg", "iphone", 222, "MKXL2FE/A");
 	//设置加入到购物袋内的函数
-	function addItem(imgSrc, goodsName, price, goodsNum) {
+	function addItem(imgSrc, goodsName, price, goodsNum, objectId) {
 		var cartItemsList = $("#cart-items");
 		var cartItem = $("<li class='cart-item'></li>");
 		cartItem.appendTo(cartItemsList);
@@ -265,7 +275,7 @@ $(function() {
 		var span3 = $("<span class='available-date'>有现货</span>");
 		span3.appendTo(deliveryDate);
 		deliveryDate.appendTo(deliveryDel);
-		var delCartItem = $("<div class='del-cart-item'><a href='javascript:;' class='del-cart-item-link'>删除</a></div>");
+		var delCartItem = $("<div class='del-cart-item'><a href='javascript:;' class='del-cart-item-link' id='" + objectId + "'>删除</a></div>");
 		delCartItem.appendTo(deliveryDel);
 
 		var partNumber = $("<div class='part-number clearFr'>编号:</div>");
@@ -314,19 +324,44 @@ $(function() {
 
 	//	设置添加购物袋的点击事件
 	function addCart() {
+		//		console.log($(".addCart-Btn"));
 		$(".addCart-Btn").each(function(k, v) {
 			$(v).click(function() {
+				//						console.log($(this).get(0).id);
+				var goodsId = $(this).get(0).id;
 				var currentUserId = sessionStorage.getItem("currentUserId");
-				if(currentUserId){
+				//				console.log(currentUserId);
+				if(currentUserId) {
 					$.ajax({
-						type:"post",
-						url:"",
-						async:true
+						type: "post",
+						url: "https://leancloud.cn:443/1.1/classes/userShopRecord",
+						headers: {
+							"x-avoscloud-application-id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+							"x-avoscloud-application-key": "CCxEKxRU9fKiSXM35dlTpGQC",
+							"content-type": "application/json"
+						},
+						data: '{' + '"userId": {"__type": "Pointer","className": "_User","objectId":"' + currentUserId + '"},"goodsId": {"__type": "Pointer","className": "goodsDetail","objectId":"' + goodsId + '"}}',
+						success: function(data) {
+							console.log(data);
+							setTimeout(function() {
+								location.reload();
+							}, 2000)
+						}
 					});
 				}
 			});
 		});
 	}
 	//	addCart - Btn
+	$.ajax({
+		type: "delete",
+		url: "https://api.leancloud.cn/1.1/classes/recommandGoods/599ee1a8a0bb9f00588debd1",
+		headers: {
+			"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+			"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC"
+		},
+//		data: '{"objectId:"'+'599ee1a8a0bb9f00588debd1'+'"}''
+
+	});
 
 })
