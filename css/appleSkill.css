@@ -48,7 +48,7 @@ body {
 }
 
 .typography-hero-headline1 {
-	margin-top: 110px;
+	margin-top: 200px;
 	margin-right: 459.6px;
 	margin-left: 459.6px;
 	height: 184.6px;
@@ -308,7 +308,7 @@ body {
 	color: #C0CCCC;
 	overflow: hidden;
 	font-size: 11px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	position: relative;
 	top: -100px;
 }
