@@ -44,6 +44,7 @@ $(function() {
 			success: function(data) {
 				//				console.log(data);
 				//				console.log("登录成功");
+				sessionStorage.setItem("session",data.sessionToken);
 				$("#response-erro").html("登录成功！请等待跳转");
 				$(".spinner").css("display", "block");
 				setTimeout(function() {
