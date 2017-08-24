@@ -51,11 +51,11 @@
 
 /*未登录购物袋开始*/
 
-#empty-cart {
+.empty-cart {
 	padding-top: 20px;
 }
 
-.bag-notSignin {
+.bag-notSignin ,.bag-no-goods{
 	margin: 10px 0px;
 	padding: 12px 12px 0px 12px;
 }
@@ -170,7 +170,8 @@
 }
 
 .cart-product {
-	height: 160px;
+	/*height: 160px;*/
+	overflow: hidden;
 }
 
 .cart-item-image-wrapper {
@@ -193,14 +194,17 @@
 }
 
 .product-info-detail {
-	height: 22px;
+	/*height: 22px;*/
+	overflow: hidden;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #D5D5D5;
+	position: relative;
 }
 
 .product-name {
 	width: 267px;
-	height: 22px;
+	
+	/*height: 22px;*/
 	float: left;
 	/*border: 1px solid;*/
 }
@@ -220,8 +224,12 @@
 }
 
 .price-quantity-list {
-	float: right;
+	/*float: right;*/
 	/*overflow: hidden;*/
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
 }
 
 .price-quantity-item {
@@ -243,7 +251,7 @@
 	margin: 2px 0px 5px 0px;
 	padding-right: 2px;
 	position: relative;
-	top: -5px;
+	top: -2px;
 	box-shadow: 1px -1px #D7D7D7, -1px -1px #D7D7D7;
 }
 
@@ -588,7 +596,9 @@
 
 
 /*问题开始*/
-
+.bag-questions{
+	margin-top: 10px;
+}
 .content-section {
 	padding: 0px 28px;
 	overflow: hidden;
