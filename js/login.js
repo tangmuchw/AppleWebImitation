@@ -60,9 +60,27 @@ $(function() {
 			 else{
 			 	 errmmsg.val("您的 Apple ID或密码输入有误。");
 			 }
-			 
+			
 			}
 			});
 		return false;
+	});
+	var storagelength = 0;
+	$("#submitbtn").click(function() {
+		localStorage.setItem(storagelength, $("#username").val());
+		storagelength++;
+		if(storagelength == 3) {
+			$("#forget").css("display","block");
+		    $("#loginform").css("display","none");
+		}
+	});
+	$(".clearStorage").click(function() {
+		storagelength = 0;
+		$("#forget").css("display","none");
+		$("#loginform").css("display","block");
+		for(var i = 0; i < localStorage.length; i++) {
+			localStorage.clear(localStorage);
+		}
+		$("#errtxt").css("display","none");
 	});
 });
