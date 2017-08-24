@@ -43,7 +43,18 @@ html {
 	border-right: 1px solid #E4E4E4;
 	position: relative;
 }
-
+#forget{
+	width: 400px;
+	height: 250px;
+	padding: 90px 0 0 65px;
+	border-right: 1px solid #E4E4E4;
+	position: relative;
+	display: none;
+}
+#forget p{
+	font-size: 16px;
+	line-height: 30px;
+}
 #loginform #username,
 #password{
 	width: 330px;
