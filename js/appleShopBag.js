@@ -167,6 +167,12 @@ $(function() {
 						//					console.log(data.results[3].objectId);
 						//					console.log(data2.results[1].goodsId.objectId);
 						//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
+						if(data.results.length > 0) {
+							$("#cart-recommendations").css("display", "block");
+						} else {
+							$("#cart-recommendations").css("display", "none");
+
+						}
 						for(var n = 0; n < data.results.length; n++) {
 							var equl = true;
 							for(var m = 0; m < data2.results.length; m++) {
