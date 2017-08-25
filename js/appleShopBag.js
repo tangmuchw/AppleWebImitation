@@ -94,7 +94,6 @@ $(function() {
 			boxBag.css("display", "none");
 			noGoodsBag.css("display", "none");
 		}
-		create();
 	}
 
 	//	设置商品的删除功能
