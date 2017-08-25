@@ -141,6 +141,12 @@ $(function() {
 			success: function(data) {
 				//			console.log(data);
 				var currentUserId = sessionStorage.getItem("currentUserId");
+				if(data.results.length > 0) {
+					$("#cart-recommendations").css("display", "block");
+				} else {
+					$("#cart-recommendations").css("display", "none");
+
+				}
 				//			console.log(currentUserId);
 				//				获得购物车里商品信息
 				$.ajax({
