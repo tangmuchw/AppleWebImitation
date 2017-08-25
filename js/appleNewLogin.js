@@ -49,6 +49,7 @@ $(function() {
 			success: function(data) {
 				//				console.log(data);
 				//				console.log("登录成功");
+				// data.sessionToken用于判断当前是否为已登录
 				sessionStorage.setItem("session", data.sessionToken);
 				sessionStorage.setItem("currentUserId", data.objectId);
 				$("#response-erro").html("登录成功！请等待跳转");
@@ -62,7 +63,7 @@ $(function() {
 				var ret = errorAll.showError(er.responseText);
 				//				console.log(ret);
 				$("#response-erro").html(ret);
-				$(".spinner").css("display", "none");
+				$(".spinner").css("display", "block");
 
 			}
 		});
