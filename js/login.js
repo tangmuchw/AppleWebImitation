@@ -40,6 +40,8 @@ $(function() {
 			contentType: "application/json",
 			data: '{"username":"' + username + '","password":"' + pwd + '"}',
 			success:function(data){
+				sessionStorage.setItem("currentUserId", data.objectId);
+				sessionStorage.setItem("session", data.sessionToken);
 				$("#errtxt").css("display","none");
 				location.href='index.html';
 			},
