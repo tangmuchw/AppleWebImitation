@@ -370,7 +370,7 @@ $(function() {
 			}).then(function(data) {
 				//				console.log(data);
 				//				console.log("注册成功");
-				sessionStorage.setItem("username",data.username);
+				sessionStorage.setItem("username", data.username);
 				$("#response-erro").html("注册成功！请等待跳转");
 				$(".spinner").css("display", "block");
 				setTimeout(function() {

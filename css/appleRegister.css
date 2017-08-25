@@ -54,9 +54,11 @@
 .item-link:hover {
 	text-decoration: underline;
 }
-.reg-content-headline{
+
+.reg-content-headline {
 	/*height: 74px;*/
 }
+
 .headline-createID {
 	text-align: center;
 	color: #FFFFFF;
@@ -348,6 +350,31 @@
 
 
 /*注册正文结束*/
+
+
+/*提示模态框开始*/
+
+.modal-content {
+	margin-top: 100px;
+}
+
+.modal-title {
+	line-height: 60px;
+}
+
+.modal-body {
+	overflow: hidden;
+}
+
+#response-erro {
+	float: left;
+}
+
+.spinner {
+	float: left;
+	display: none;
+	margin-left: 5px;
+}
 
 
 /*尾部开始*/
