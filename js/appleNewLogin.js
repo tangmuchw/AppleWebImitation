@@ -24,7 +24,7 @@ $(function() {
 	$("#account-ID").focus(function() {
 		var username = sessionStorage.getItem("username");
 		if(username != null && username != "") {
-			$("#account-ID").val() = username;
+			$("#account-ID").valusername();
 		}
 	}).focusout(function() {
 		var accountID = $("#account-ID").val();
