@@ -165,6 +165,7 @@ $(function() {
 						console.log(data2);
 						//					console.log(data.results.length);
 						console.log(data2.results.length);
+						console.log(data.results.length);
 						//					console.log(data.results[3].objectId);
 						//					console.log(data2.results[1].goodsId.objectId);
 						//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
