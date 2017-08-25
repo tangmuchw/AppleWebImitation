@@ -59,37 +59,6 @@ $(function() {
 				vedio[0].pause();
 			}
 		}
-		// 第二个视频播放效果;
-		var text2 = $(".video-text1")[0];
-		var vedio2 = $(".vedioMP4-4");
-		var playbtn2 = $(".vedio-btn1");
-		if(scrollTop >= 7200 && scrollTop < 7900) {
-			text2.style.animation = "move1 1s";
-			text2.style.top = -50 + "px";
-			var imgbtn = playbtn2.children()[0];
-			if(text2.style.top == -50 + "px") {
-				$(".sticky1").stop();
-				$(".sticky1").fadeOut("1000");
-				playbtn2.stop();
-				playbtn2.show("2000");
-				if(imgbtn.className == "displaynone") {
-					vedio2[0].pause();
-				} else {
-					vedio2[0].play();
-					vedio2[0].loop = "loop";
-				}
-				btnclick(playbtn2);
-			}
-		} else if(scrollTop < 6800 || scrollTop >= 7900) {
-			text2.style.animation = "move2 0.7s";
-			text2.style.top = 80 + "px";
-			if(text2.style.top == 80 + "px") {
-				$(".sticky1").stop();
-				$(".sticky1").fadeIn("1000");
-				playbtn2.fadeOut("1000");
-				vedio2[0].pause();
-			}
-		}
 		//第三个视频
 		var text3 = $(".video-text2")[0];
 		var vedio3 = $(".videoMP4-5");

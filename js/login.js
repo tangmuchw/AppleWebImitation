@@ -69,7 +69,7 @@ $(function() {
 	$("#submitbtn").click(function() {
 		localStorage.setItem(storagelength, $("#username").val());
 		storagelength++;
-		if(storagelength == 3) {
+		if(storagelength == 2) {
 			$("#forget").css("display","block");
 		    $("#loginform").css("display","none");
 		}
