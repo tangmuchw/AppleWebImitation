@@ -230,7 +230,8 @@ i.iconfont{
 }
 .selection-options .colornav-item {
     width: 32px;
-    line-height: 32px;
+    height: 32px;
+    text-align:center;
     margin: 5px 0px 0px 5px;
     padding: 2px;
     float: left;
@@ -238,7 +239,9 @@ i.iconfont{
     border:1px solid white;
     cursor: pointer;
 }
-
+.selection-options .colornav-item img{
+	border-radius: 50%;
+}
 .colornav-swatch {
     display: block;
     margin: 0 auto;

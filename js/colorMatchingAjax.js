@@ -64,4 +64,12 @@ $(function() {
 		console.log(er);
 	});
 	});
+	$(".as-producttile-img").each(function(k,v){
+		v.setAttribute("index", k);
+	});
+	$(".as-producttile-img").click(function(){
+		var a=this.getAttribute("index");
+//		localStorage.clear(localStorage);
+		localStorage.setItem(1,a);
+	})
 });
