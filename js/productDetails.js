@@ -15,6 +15,9 @@ $(function() {
 				var productColor=getdata.productColorImg;
 				$(".materializer").html(getdata.productName);
 				$(".current_price").html(getdata.productPrice);
+				$(".p1").html(getdata.productGaiShu);
+				$(".p2").html(getdata.productbag);
+				$(".p3").html(getdata.productCaiLiao);
 				var lis=$(".colornav-item");
 				console.log(lis.length);
 				for(var i=0;i<lis.length;i++){
