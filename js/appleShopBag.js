@@ -18,7 +18,6 @@ $(function() {
 				var smTotal = num * productPrice;
 				quantityPrice.html(smTotal);
 				acountAllTotal();
-
 			});
 		});
 	}
@@ -32,7 +31,6 @@ $(function() {
 			//			console.log(smTotal);
 			allTotal += smTotal;
 		});
-
 		$("#allTotal").html(formatMoney(allTotal));
 	}
 
@@ -69,6 +67,14 @@ $(function() {
 		if(currentIdSession != "" && currentIdSession != null) {
 			var cartItem = boxBag.find("#cart-items").children();
 			noSinginBag.css("display", "none");
+			var recommandItem = $(".recommand-list").children();
+			//			console.log(recommandItem.length);
+			if(recommandItem.length == 0) {
+				$("#cart-recommendations").css("display", "none");
+			} else {
+				$("#cart-recommendations").css("display", "block");
+
+			}
 			//			console.log(cartItem.length);
 			if(cartItem.length == 0) {
 				boxBag.css("display", "none");
@@ -93,6 +99,23 @@ $(function() {
 				var removeMask = $(this).parents(".cart-item").children(0);
 				var cartItem = $(this).parents(".cart-item");
 				removeMask.fadeIn();
+				var currentId = $(this).get(0).id;
+				console.log(currentId);
+				console.log(currentId);
+				$.ajax({
+					type: "delete",
+					url: "https://api.leancloud.cn/1.1/classes/userShopRecord/" + currentId,
+					headers: {
+						"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+						"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC",
+						"Content-Type": "application/json"
+					},
+					success: function() {
+						console.log("删除成功");
+					}
+					//		data: '{"objectId:"'+'599ee1a8a0bb9f00588debd1'+'"}''
+
+				});
 				setTimeout(function() {
 					cartItem.remove();
 					condition();
@@ -103,83 +126,104 @@ $(function() {
 	}
 
 	//	请求创建推荐部分的商品信息
-	$.ajax({
-		type: "get",
-		url: "https://api.leancloud.cn/1.1/classes/goodsDetail",
-		headers: {
-			"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
-			"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC",
-			"Content-Type": "application/json"
-		},
-		success: function(data) {
-			//			console.log(data);
-			var currentUserId = sessionStorage.getItem("currentUserId");
-			//			console.log(currentUserId);
-			$.ajax({
-				type: "get",
-				url: "https://api.leancloud.cn/1.1/classes/userShopRecord",
-				headers: {
-					"x-avoscloud-application-id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
-					"x-avoscloud-application-key": "CCxEKxRU9fKiSXM35dlTpGQC"
-				},
-				data: {
-					where: '{"userId":{"__type":"Pointer","className":"_User","objectId":"' + currentUserId + '"}}',
-					limit: 10,
-					order: "updatedAt",
-					include: "goodsId"
+	create();
 
-				},
-				success: function(data2) {
-					//					console.log(data);
-					//					console.log(data2);
-					//					console.log(data.results.length);
-					//					console.log(data2.results.length);
-					//					console.log(data.results[3].objectId);
-					//					console.log(data2.results[1].goodsId.objectId);
-					//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
+	function create() {
+		//		获得所有商品
+		$.ajax({
+			type: "get",
+			url: "https://api.leancloud.cn/1.1/classes/goodsDetail",
+			headers: {
+				"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+				"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC",
+				"Content-Type": "application/json"
+			},
+			success: function(data) {
+				//			console.log(data);
+				var currentUserId = sessionStorage.getItem("currentUserId");
+				//			console.log(currentUserId);
+				//				获得购物车里商品信息
+				$.ajax({
+					type: "get",
+					url: "https://api.leancloud.cn/1.1/classes/userShopRecord",
+					headers: {
+						"x-avoscloud-application-id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+						"x-avoscloud-application-key": "CCxEKxRU9fKiSXM35dlTpGQC"
+					},
+					data: {
+						where: '{"userId":{"__type":"Pointer","className":"_User","objectId":"' + currentUserId + '"}}',
+						limit: 10,
+						order: "updatedAt",
+						include: "goodsId"
 
-					if(data2.results.length > 0) {
-						$("#cart-recommendations").css("display", "block");
+					},
+					success: function(data2) {
+						console.log(data);
+						console.log(data2);
+						//					console.log(data.results.length);
+						console.log(data2.results.length);
+						//					console.log(data.results[3].objectId);
+						//					console.log(data2.results[1].goodsId.objectId);
+						//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
+						/*if(data2.results.length > 0) {
+							$(".bag-box").css("display", "block");
+							$("#cart-recommendations").css("display", "block");
 
-					} else {
-						$("#cart-recommendations").css("display", "none");
+						} else {
+							$(".bag-box").css("display", "block");
+							$("#cart-recommendations").css("display", "none");
 
-					}
+						}*/
+						condition();
+						for(var n = 0; n < data.results.length; n++) {
+							var equl = true;
+							for(var m = 0; m < data2.results.length; m++) {
+								//更新其修改权限
+								/*$.ajax({
+									type: "put",
+									url: "https://leancloud.cn:443/1.1/classes/userShopRecord/" + data2.results[m].objectId,
+									headers: {
+										"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
+										"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC",
+										"Content-Type": "application/json"
+									},
+									data: '{"ACL":{"*":{"read":"true","write":"false"}}}',
+									success:function(){
+										console.log("权限更新成功");
+									}
 
-					for(var n = 0; n < data.results.length; n++) {
-						var equl = true;
-						for(var m = 0; m < data2.results.length; m++) {
-							//							console.log(data.results[n].objectId);
-							//							console.log(data2.results[m].goodsId.objectId);
-							if(data.results[n].objectId != data2.results[m].goodsId.objectId) {
-								//								console.log(m);
-								//								console.log(equl);
-								equl = false;
-							} else {
-								equl = true;
-								break;
+								});*/
+								//							console.log(data.results[n].objectId);
+								//							console.log(data2.results[m].goodsId.objectId);
+								if(data.results[n].objectId != data2.results[m].goodsId.objectId) {
+									//								console.log(m);
+									//								console.log(equl);
+									equl = false;
+								} else {
+									equl = true;
+									break;
+								}
 
 							}
-						}
-						if(!equl) {
-							addRecommandItem(data.results[n].imgSrcCart, data.results[n].goodsName, data.results[n].goodsPrice, data.results[n].objectId);
-							addCart();
+							if(!equl) {
+								addRecommandItem(data.results[n].imgSrcCart, data.results[n].goodsName, data.results[n].goodsPrice, data.results[n].objectId);
+								addCart();
+							}
 
+						}
+
+						for(var j = 0; j < data2.results.length; j++) {
+							addItem(data2.results[j].goodsId.imgSrcCart, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum, data2.results[j].objectId);
 						}
 
 					}
 
-					for(var j = 0; j < data2.results.length; j++) {
-						addItem(data2.results[j].goodsId.imgSrcCart, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum, data2.results[j].objectId);
-					}
+				});
 
-				}
+			}
 
-			});
-
-		}
-
-	});
+		});
+	}
 
 	//	addRecommandItem("img/cartImg/item01/APPLECARE-plus.jpg","iphone",233);
 	//设置添加到推荐的函数
@@ -219,6 +263,7 @@ $(function() {
 	//	addItem("img/cartImg/item01/iphone6s-plus-rosegold-select-2015.jpg", "iphone", 222, "MKXL2FE/A");
 	//设置加入到购物袋内的函数
 	function addItem(imgSrc, goodsName, price, goodsNum, objectId) {
+		$(".bag-box").css("display", "block");
 		var cartItemsList = $("#cart-items");
 		var cartItem = $("<li class='cart-item'></li>");
 		cartItem.appendTo(cartItemsList);
@@ -330,7 +375,7 @@ $(function() {
 				//						console.log($(this).get(0).id);
 				var goodsId = $(this).get(0).id;
 				var currentUserId = sessionStorage.getItem("currentUserId");
-				//				console.log(currentUserId);
+				console.log(currentUserId);
 				if(currentUserId) {
 					$.ajax({
 						type: "post",
@@ -345,23 +390,13 @@ $(function() {
 							console.log(data);
 							setTimeout(function() {
 								location.reload();
-							}, 2000)
+							}, 2000);
 						}
+
 					});
 				}
 			});
 		});
 	}
-	//	addCart - Btn
-	$.ajax({
-		type: "delete",
-		url: "https://api.leancloud.cn/1.1/classes/recommandGoods/599ee1a8a0bb9f00588debd1",
-		headers: {
-			"X-LC-Id": "UJ1jmC7juP5sEo59Hi0Ofjji-gzGzoHsz",
-			"X-LC-Key": "CCxEKxRU9fKiSXM35dlTpGQC"
-		},
-//		data: '{"objectId:"'+'599ee1a8a0bb9f00588debd1'+'"}''
-
-	});
 
 })
