@@ -189,13 +189,13 @@ $(function() {
 								}
 							}
 							if(!equl || data2.results.length == 0) {
-								addRecommandItem(data.results[n].imgSrcCart, data.results[n].goodsName, data.results[n].goodsPrice, data.results[n].objectId);
+								addRecommandItem(data.results[n].bigImgSrc, data.results[n].goodsName, data.results[n].goodsPrice, data.results[n].objectId);
 								addCart(data.results[n].objectId);
 							}
 
 						}
 						for(var j = 0; j < data2.results.length; j++) {
-							addItem(data2.results[j].goodsId.imgSrcCart, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum, data2.results[j].objectId);
+							addItem(data2.results[j].goodsId.smImgSrc, data2.results[j].goodsId.goodsName, data2.results[j].goodsId.goodsPrice, data2.results[j].goodsId.goodsNum, data2.results[j].objectId);
 							delGoods(data2.results[j].objectId);
 						}
 
