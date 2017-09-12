@@ -71,7 +71,8 @@ $(function() {
 		var boxBag = $(".bag-box");
 		var noGoodsBag = $(".bag-no-goods");
 		var recommandItem = $(".recommand-list").children();
-		console.log(recommandItem.length);
+//		console.log(recommandItem.length);
+
 		if(recommandItem.length == 0) {
 			$("#cart-recommendations").css("display", "none");
 		} else {
@@ -160,11 +161,11 @@ $(function() {
 
 					},
 					success: function(data2) {
-						console.log(data);
-						console.log(data2);
+//						console.log(data);
+//						console.log(data2);
 						//					console.log(data.results.length);
-						console.log(data2.results.length);
-						console.log(data.results.length);
+//						console.log(data2.results.length);
+//						console.log(data.results.length);
 						//					console.log(data.results[3].objectId);
 						//					console.log(data2.results[1].goodsId.objectId);
 						//					console.log(data.results[3].objectId != data2.results[1].goodsId.objectId);
